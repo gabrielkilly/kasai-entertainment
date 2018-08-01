@@ -1,24 +1,30 @@
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-      </button>
-      <a class="navbar-brand" href="#">WebSiteName</a>
-    </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a href="#">Page 1</a></li>
-        <li><a href="#">Page 2</a></li>
-        <li><a href="#">Page 3</a></li>
+<nav>
+  <ul id='outer'>
+    <li class='outer' style="width: 24%;">
+      <a><img id='logo' src='/assets/images/kasai_logo.png'/></a>
+    </li>
+    <li class='outer' style="width: 50%;">
+      <ul class='inner'>
+        <li class='inner'>
+          <a href='/packages.php'>PACKAGES</a>
+        </li>
+        <li class='inner'>
+          <a href='/about.php'>ABOUT</a>
+        </li>
+        <li class='inner'>
+          <a href='/mixes.php'>MIXES</a>
+        </li>
+        <li class='inner'>
+          <a href='/experiences.php'>EXPERIENCES</a>
+        </li>
+    </ul>
+    </li>
+    <li class='outer' style="width: 24%;">
+      <ul class='inner'>
+        <li class='inner'>
+          <a href='/contact.php' id="contact-link">CONTACT</a>
+        </li>
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-        <li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-      </ul>
-    </div>
-  </div>
+    </li>
+  </ul>
 </nav>
