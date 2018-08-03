@@ -63,5 +63,16 @@ li.inner a {
 @media screen and (max-width: 768-1px) {
   li.inner, li.outer {
     display: block;
+    width: 200%;
+    background-color: black;
+    margin-top: -10px;
+  }
+  li.inner a {
+    font-size: 18px;
+  }
+  #contact-link {
+    position: relative;
+    top: 220px;
+    left: 30%;
   }
 }
