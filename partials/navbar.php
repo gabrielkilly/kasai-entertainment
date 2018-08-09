@@ -1,9 +1,3 @@
-<script>
- function toggleMenu() {
-    $("li.outer.second, li.outer.third").toggle();
-  }
-
-</script>
 <nav class="nav">
   <ul id='outer'>
     <li class='outer first'>

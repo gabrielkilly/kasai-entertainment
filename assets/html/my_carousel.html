@@ -19,8 +19,14 @@ overflow: hidden
 .carousel-indicators{
   top: 42.5vw;
 }
+.carousel-indicators li{
+  background-color: rgba(0,0,0,0.4);
+  border: solid 1px rgba(0,0,0,0.4);
+  margin: 0 1.5em;
+}
 .carousel-indicators .active{
   background-color: black;
+  margin: 0 1.5em;
 }
 .carousel-control{
   opacity: 1;
@@ -30,13 +36,13 @@ overflow: hidden
 }
 .arrow{
   background-color: black;
-  border-radius: 30px;
+  border-radius: 80%;
   padding: 1.1vw 1.5vw;
   margin: auto;
   font-size: 2vw;
 }
 </style>
-<body>
+<body style="background-color: transparent;">
 <div id="myCarousel" class="carousel slide" data-ride="carousel">
   <!-- Indicators -->
   <ol class="carousel-indicators">
