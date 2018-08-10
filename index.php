@@ -4,12 +4,11 @@
     <title>Kasai Entertainment</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/third-party/slick/slick/slick.min.css" />
     <link rel="stylesheet" href="/assets/css/styles.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <script src="/third-party/parallax/src/parallax.js"></script>
+    <script src="/third-party/jquery-3.3.1.min.js"></script>
+    <script src="/third-party/slick/slick/slick.min.js"></script>
     <script src="/assets/js/main.js"></script>
-
 </head>
 
 <body id="index">
@@ -58,8 +57,10 @@
   <section class="experiences">
     <div class="container">
       <h1>Fun Experiences...</h1>
+      <div class="slider">
+
+      </div>
     </div>
-    <iframe src="/assets/html/my_carousel.html" frameborder="0" scrolling="no" onload="resizeIframe(this)" style="width:100%; margin: 5rem 0;"></iframe>
     <a class="button">See More</a>
   </section>
   <?php include __DIR__."/partials/footer.php"?>
