@@ -4,11 +4,18 @@
     <title>Kasai Entertainment</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/third-party/slick/slick/slick.min.css" />
+    <link rel="stylesheet" href="/third-party/slick/slick/slick-theme.css" />
     <link rel="stylesheet" href="/assets/css/styles.min.css">
     <script src="/third-party/jquery-3.3.1.min.js"></script>
-    <script src="/third-party/slick/slick/slick.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.3.1.min.js"></script>
+    <script src="third-party/slick/slick/slick.min.js"></script>
     <script src="/assets/js/main.js"></script>
+
+    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
+    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="slick/slick.min.js"></script>
 </head>
 
 <body id="index">
@@ -58,7 +65,13 @@
     <div class="container">
       <h1>Fun Experiences...</h1>
       <div class="slider">
-
+        <div>
+          <div class="experience-image-1"></div>
+          <div class="experience-image-2"></div>
+          <div class="experience-image-3"></div>
+          <div class="experience-image-4"></div>
+          <div class="experience-image-5"></div>
+          <div class="experience-image-6"></div>
       </div>
     </div>
     <a class="button">See More</a>
