@@ -5,17 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/third-party/slick/slick/slick-theme.css" />
+    <link rel="stylesheet" href="/third-party/slick/slick/slick.css" />
     <link rel="stylesheet" href="/assets/css/styles.min.css">
-    <script src="/third-party/jquery-3.3.1.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-3.3.1.min.js"></script>
-    <script src="third-party/slick/slick/slick.min.js"></script>
-    <script src="/assets/js/main.js"></script>
-
-    <link rel="stylesheet" type="text/css" href="slick/slick.css" />
-    <link rel="stylesheet" type="text/css" href="slick/slick-theme.css"/>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-<script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="slick/slick.min.js"></script>
 </head>
 
 <body id="index">
@@ -38,26 +29,34 @@
   </div>
   <section class="packages">
     <div class="container">
-      <div>
+      <div class="weddings clearfix">
+        <h1>WEDDINGS</h1>
+        <p>
+          ipsum multos elit aliqua labore aliqua anim irure amet quae malis aliqua dolore
+          quae enim anim tempor labore minim minim cillum minim nulla fore labore cillum
+          fore tempor velit tempor illum summis magna sunt sint fore cillum dolore tamen
+          malis minim magna irure labore cillum duis dolore malis aliqua cillum
+        </p>
+        <div style="width:15rem; height: 20rem; background-color: gray;"></div>
       </div>
-        <h1></h1>
+      <div class="events clearfix">
+        <h1>EVENTS</h1>
         <p>
-
+          quorum summis malis sunt noster labore amet sunt cillum multos sunt tempor
+          summis sunt minim quem quis nulla duis culpa multos sunt enim elit cillum anim
+          nulla esse minim elit tamen quem veniam aliqua multos quis velit fore
         </p>
-        <img />
-      <div>
-        <h1></h1>
-        <p>
-
-        </p>
-        <img />
+        <div style="width:18rem; height: 18rem; background-color: gray;"></div>
       </div>
-      <div>
-        <h1></h1>
+      <div class="rentals clearfix">
+        <h1>RENTALS</h1>
         <p>
-
+          quorum malis quis quis duis ipsum elit labore nisi malis tempor enim esse quid
+          amet dolor elit enim fore irure nulla summis dolor illum sunt quid fugiat elit
+          tempor legam export amet culpa illum quis quis anim esse enim labore quorum nisi
+          export ipsum duis
         </p>
-        <img />
+        <div style="width:24rem; height: 7rem; background-color: gray;"></div>
       </div>
     </div>
   </section>
@@ -65,17 +64,18 @@
     <div class="container">
       <h1>Fun Experiences...</h1>
       <div class="slider">
-        <div>
-          <div class="experience-image-1"></div>
-          <div class="experience-image-2"></div>
-          <div class="experience-image-3"></div>
-          <div class="experience-image-4"></div>
-          <div class="experience-image-5"></div>
-          <div class="experience-image-6"></div>
+          <div><div><img src="/assets/images/stock.jpg" /></div></div>
+          <div><div><img src="/assets/images/stock.jpg" /></div></div>
+          <div><div><img src="/assets/images/stock.jpg" /></div></div>
       </div>
     </div>
     <a class="button">See More</a>
   </section>
   <?php include __DIR__."/partials/footer.php"?>
+
+  <script src="/third-party/jquery/jquery-3.3.1.min.js"></script>
+  <script src="/third-party/jquery/jqeury-migrate-3.0.1.min.js"></script>
+  <script src="/third-party/slick/slick/slick.min.js"></script>
+  <script src="/assets/js/main.js"></script>
 </body>
 </html>

@@ -36,6 +36,63 @@ section.about-us {
   background: linear-gradient(rgb(166, 96, 198), rgb(131, 149, 219));
 }
 
+section.packages {
+  color: black;
+  .container {
+    position: relative;
+    h1 {
+      font-family: "josefin-sb";
+      font-size: 9rem;
+      letter-spacing:.6rem;
+      background: linear-gradient(#D3D5DB, #FFFFFF);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      padding: 2rem 0;
+    }
+    div {
+      padding: 3rem 0;
+      position:relative;
+      p {
+        font-family: hind-m;
+        line-height: 2rem;
+        font-size: 2rem;
+        position: absolute;
+        width: 60%;
+      }
+      &.weddings {
+        p {
+
+        }
+        div {
+          float:right;
+        }
+      }
+      &.events {
+        h1 {
+          text-align: right;
+        }
+        p {
+          right: 0;
+        }
+        div {
+          float: left;
+        }
+      }
+      &.rentals {
+        h1 {
+
+        }
+        p {
+          float: left;
+        }
+        div {
+          float:right;
+        }
+      }
+    }
+  }
+}
+
 section.experiences {
   background: linear-gradient(#DB0A28, #FF7F00);
 
@@ -43,5 +100,22 @@ section.experiences {
     h1 {
       text-align: right;
     }
+    .slider {
+      padding: 3rem 0;
+      div {
+        position: relative;
+        div {
+          img {
+            width: inherit;
+            margin: auto;
+            height: 50vw;
+            border-radius: 1%;
+          }
+        }
+      }
+    }
+  }
+  .button {
+    margin-top: 3rem;
   }
 }
