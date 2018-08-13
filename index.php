@@ -30,33 +30,33 @@
   <section class="packages">
     <div class="container">
       <div class="weddings clearfix">
-        <h1>WEDDINGS</h1>
-        <p>
+        <h1 class="parallax-h1">WEDDINGS</h1>
+        <p class="parallax-p">
           ipsum multos elit aliqua labore aliqua anim irure amet quae malis aliqua dolore
           quae enim anim tempor labore minim minim cillum minim nulla fore labore cillum
           fore tempor velit tempor illum summis magna sunt sint fore cillum dolore tamen
           malis minim magna irure labore cillum duis dolore malis aliqua cillum
         </p>
-        <div style="width:15rem; height: 20rem; background-color: gray;"></div>
+        <div class="parallax-img" style="width:15rem; height: 20rem; background-color: gray;"></div>
       </div>
       <div class="events clearfix">
-        <h1>EVENTS</h1>
-        <p>
+        <h1 class="parallax-h1">EVENTS</h1>
+        <p class="parallax-p">
           quorum summis malis sunt noster labore amet sunt cillum multos sunt tempor
           summis sunt minim quem quis nulla duis culpa multos sunt enim elit cillum anim
           nulla esse minim elit tamen quem veniam aliqua multos quis velit fore
         </p>
-        <div style="width:18rem; height: 18rem; background-color: gray;"></div>
+        <div class="parallax-img" style="width:18rem; height: 18rem; background-color: gray;"></div>
       </div>
       <div class="rentals clearfix">
-        <h1>RENTALS</h1>
-        <p>
+        <h1 class="parallax-h1">RENTALS</h1>
+        <p class="parallax-p">
           quorum malis quis quis duis ipsum elit labore nisi malis tempor enim esse quid
           amet dolor elit enim fore irure nulla summis dolor illum sunt quid fugiat elit
           tempor legam export amet culpa illum quis quis anim esse enim labore quorum nisi
           export ipsum duis
         </p>
-        <div style="width:24rem; height: 7rem; background-color: gray;"></div>
+        <div class="parallax-img" style="width:24rem; height: 7rem; background-color: gray;"></div>
       </div>
     </div>
   </section>
@@ -76,6 +76,7 @@
   <script src="/third-party/jquery/jquery-3.3.1.min.js"></script>
   <script src="/third-party/jquery/jqeury-migrate-3.0.1.min.js"></script>
   <script src="/third-party/slick/slick/slick.min.js"></script>
+  <script src="/third-party/paroller.js/dist/jquery.paroller.js"></script>
   <script src="/assets/js/main.js"></script>
 </body>
 </html>
