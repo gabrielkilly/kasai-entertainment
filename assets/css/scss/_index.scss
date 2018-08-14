@@ -54,14 +54,21 @@ section.packages {
       padding: 3rem 0;
       position:relative;
       p {
-        line-height: 3rem;
+        line-height: 2.2rem;
         font-family: hind-l;
-        font-size: 2rem;
+        font-size: 1.8rem;
         position: absolute;
         width: 60%;
       }
       .parallax-img {
         margin-top: -200px;
+        z-index: 1;
+      }
+      .parallax-p {
+        margin-top: -20px;
+      }
+      .parallax-h1 {
+        z-index: 10;
       }
       &.weddings {
         p {
@@ -122,5 +129,18 @@ section.experiences {
   }
   .button {
     margin-top: 3rem;
+  }
+}
+
+section.contact-us {
+  background: linear-gradient(rgba(153,0,22,0.7), rgba(153,0,22,0.7)), url(/assets/images/eventImg.jpg);
+  background-size: cover, cover;
+  background-blend-mode: hard-light;
+  height: 25rem;
+  h1 {
+    text-align: center;
+  }
+  .button {
+    margin-top: 12%;
   }
 }

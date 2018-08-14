@@ -59,6 +59,7 @@
         <div class="parallax-img" style="width:24rem; height: 7rem; background-color: gray;"></div>
       </div>
     </div>
+    <a class="button">Get A Quote</a>
   </section>
   <section class="experiences">
     <div class="container">
@@ -70,6 +71,15 @@
       </div>
     </div>
     <a class="button">See More</a>
+  </section>
+  <section>
+    
+  </section>
+  <section class="contact-us">
+    <div class="container">
+      <h1>Any Questions? Interested&#160;In&#160;Our&#160;Services?</h1>
+    </div>
+    <a class="button">Contact Us</a>
   </section>
   <?php include __DIR__."/partials/footer.php"?>
 
