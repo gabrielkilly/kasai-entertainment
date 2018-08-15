@@ -78,12 +78,21 @@ a.button
   font-size: 1.3rem;
   color: white;
   transition: .6s background-color, .6s color;
+  &.black {
+    color: black;
+    border-color: black;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+  &:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, .5);
+  }
 }
 
-a.button:hover {
-  background-color: white;
-  color: rgba(0, 0, 0, .5);
-}
+
 
 div.image {
   width: 100%;

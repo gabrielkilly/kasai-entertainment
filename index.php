@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Kasai Entertainment</title>
+    <title>Kasai Entertainment | An Experience Like No Other</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/third-party/slick/slick/slick-theme.css" />
@@ -13,7 +13,7 @@
   <?php include __DIR__."/partials/navbar.php"?>
   <div class="intro">
     <h1>KASAI ENTERTAINMENT</h1>
-    <h2>A DJ EXPERIENCE LIKE NO OTHER</h2>
+    <h2>AN EXPERIENCE LIKE NO OTHER</h2>
   </div>
   <section class="about-us">
     <div class="container">
@@ -59,7 +59,15 @@
         <div class="parallax-img" style="width:24rem; height: 7rem; background-color: gray;"></div>
       </div>
     </div>
-    <a class="button">Get A Quote</a>
+    <a class="button black">Get A Quote</a>
+  </section>
+  <section class="youtube-banner">
+    <h1>Check out our live mixes every Tuesday.</h1>
+    <h2>8pm CDT</h2>
+    <div>
+      <span class="icon"></span>
+      <span class="icon"></span>
+    </div>
   </section>
   <section class="experiences">
     <div class="container">
@@ -71,9 +79,6 @@
       </div>
     </div>
     <a class="button">See More</a>
-  </section>
-  <section>
-    
   </section>
   <section class="contact-us">
     <div class="container">
