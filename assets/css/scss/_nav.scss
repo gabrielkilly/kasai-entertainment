@@ -59,6 +59,9 @@
     border-right: 0;
     border-bottom-color: #990016;
   }
+  li.inner.no-underline:hover {
+    border: 0;
+  }
   li.inner a {
     vertical-align: middle;
     text-decoration: none;
@@ -72,6 +75,33 @@
     border-radius: 50px;
     font-size: 1rem;
     font-family: josefin-b;
+    transition: .6s background-color, .6s color;
+    &::before {
+      content: "";
+      transition: .6s background;
+      position:relative;
+      display: inline-block;
+      height: 1.2rem;
+      width: 1.2rem;
+      background: url(/assets/icons/contact-icon.png) no-repeat;
+      background-size: contain;
+      top: 5px;
+    }
+    &:hover {
+      background-color: white;
+      color: #990016;
+      &::before {
+        content: "";
+        transition: .6s background;
+        position:relative;
+        display: inline-block;
+        height: 1.2rem;
+        width: 1.2rem;
+        background: url(/assets/icons/contact-icon-red.png) no-repeat;
+        background-size: contain;
+        top: 5px;
+      }
+    }
   }
     #menu-button{
       margin-top: 20px;

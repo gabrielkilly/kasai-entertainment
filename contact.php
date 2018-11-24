@@ -20,7 +20,7 @@
     </div>
     <div class="container contact-form">
       <h1>Or Message Us Here</h1>
-      <form action="/assets/php/mail.php">
+      <form action="/assets/php/mail0.php">
         <div class="clearfix">
           <div class="left">
             <label for="name">Name</label>
@@ -38,7 +38,7 @@
                     class="inputStyle"></textarea>
         </div>
 
-        <input type="submit" class="button">Send</a>
+        <button type="submit" class="button">Send</a>
       </form>
     </div>
   </section>
@@ -46,10 +46,5 @@
 
   <?php include __DIR__."/partials/footer.php"?>
 
-  <script src="/third-party/jquery/jquery-3.3.1.min.js"></script>
-  <script src="/third-party/jquery/jqeury-migrate-3.0.1.min.js"></script>
-  <script src="/third-party/slick/slick/slick.min.js"></script>
-  <script src="/third-party/paroller.js/dist/jquery.paroller.js"></script>
-  <script src="/assets/js/main.js"></script>
   </body>
 </html>

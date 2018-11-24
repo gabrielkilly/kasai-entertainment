@@ -91,7 +91,7 @@
   <script src="/third-party/jquery/jquery-3.3.1.min.js"></script>
   <script src="/third-party/jquery/jqeury-migrate-3.0.1.min.js"></script>
   <script src="/third-party/slick/slick/slick.min.js"></script>
-  <script src="/third-party/paroller.js/dist/jquery.paroller.js"></script>
+  <script src="/third-party/paroller.js/dist/jquery.paroller.min.js"></script>
   <script src="/assets/js/main.js"></script>
 </body>
 </html>
