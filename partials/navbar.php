@@ -7,10 +7,16 @@
     <li class='outer second'>
       <ul class='inner'>
         <li class='inner'>
+          <a href='/about.php'>ABOUT</a>
+        </li>
+        <li class='inner'>
           <a href='/services.php'>SERVICES</a>
         </li>
         <li class='inner'>
-          <a href='/about.php'>ABOUT</a>
+          <a href='/quote.php'>QUOTE</a>
+        </li>
+        <li class='inner'>
+          <a href='/equipment.php'>EQUIPMENT</a>
         </li>
         <li class='inner'>
           <a href='/experiences.php'>EXPERIENCES</a>
