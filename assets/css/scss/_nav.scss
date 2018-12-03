@@ -57,7 +57,7 @@
     border-top: 0;
     border-left:0;
     border-right: 0;
-    border-bottom-color: #990016;
+    border-bottom-color: $k_gold;
   }
   li.inner.no-underline:hover {
     border: 0;
@@ -68,10 +68,10 @@
     color: white;
     font-size: 1.1rem;
   }
-  #contact-link{
+  #contact-link {
     height: auto;
     padding: 16px 20px;
-    background-color: #990016;
+    background-color: $k_gold;
     border-radius: 50px;
     font-size: 1rem;
     font-family: josefin-b;
@@ -89,7 +89,7 @@
     }
     &:hover {
       background-color: white;
-      color: #990016;
+      color: $k_gold;
       &::before {
         content: "";
         transition: .6s background;
@@ -97,7 +97,7 @@
         display: inline-block;
         height: 1.2rem;
         width: 1.2rem;
-        background: url(/assets/icons/contact-icon-red.png) no-repeat;
+        background: url(/assets/icons/contact-icon-gold.png) no-repeat;
         background-size: contain;
         top: 5px;
       }

@@ -2,13 +2,14 @@
   color: white;
 }
 #index .intro {
-  background:
-  linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
-    ),
-    /* bottom, image */
-    url(/assets/images/background.jpg);
+  // background:
+  // linear-gradient(
+  //     rgba(0, 0, 0, 0.5),
+  //     rgba(0, 0, 0, 0.5)s
+  //   ),
+  //   /* bottom, image */
+  //   url(/assets/images/background.jpg);
+  background-color: black;
   background-size: cover, cover;
   background-blend-mode: hard-light;
   background-attachment: fixed;
@@ -18,7 +19,7 @@
   padding: 0 5px;
   font-size: 4.5rem;
   -webkit-text-stroke: 1px black;
-  color: white;
+  color: $k_gold;
   text-shadow:
       3px 3px 0 #000,
     -1px -1px 0 #000,
@@ -28,6 +29,7 @@
 }
 #index .intro h2 {
   font-family: josefin-l;
+  color: $k_gold;
   font-size: 2rem;
   margin-top: .8rem;
 }
@@ -37,15 +39,16 @@ section.about-us {
 }
 
 section.packages {
-  color: black;
+  color: white;
+  background-color: black;
   padding: 6rem 0 10rem 0;
   .container {
     position: relative;
     h1 {
       font-family: "josefin-sb";
-      font-size: 9rem;
+      font-size: 6rem;
       letter-spacing:.6rem;
-      background: linear-gradient(#D3D5DB, #FFFFFF);
+      background: linear-gradient(#D3D5DB, $k_gold, #FFFFFF);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       padding: 2rem 0;
@@ -74,7 +77,7 @@ section.packages {
         p {
 
         }
-        div {
+        img {
           float:right;
         //  margin-top: -200px;
         }
@@ -86,7 +89,7 @@ section.packages {
         p {
           right: 0;
         }
-        div {
+        img {
           float: left;
         }
       }
@@ -97,7 +100,7 @@ section.packages {
         p {
           float: left;
         }
-        div {
+        img {
           float:right;
         }
       }
@@ -105,7 +108,7 @@ section.packages {
   }
   .button {
     position: relative;
-    top: 13rem;
+    top: 6rem;
   }
 }
 section.youtube-banner {
@@ -119,8 +122,8 @@ section.youtube-banner {
 
 }
 section.experiences {
-  background: linear-gradient(#DB0A28, #FF7F00);
-  padding-top: 13rem;
+  background: $k_gold;
+  padding-top: 5rem;
   .container {
     h1 {
       text-align: right;
@@ -131,7 +134,7 @@ section.experiences {
         position: relative;
         div {
           img {
-            width: 70%;
+            width: 100%;
             margin: auto;
             height: auto;
             border-radius: 1%;

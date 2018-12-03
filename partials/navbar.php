@@ -1,7 +1,7 @@
 <nav class="nav">
   <ul id='outer'>
     <li class='outer first'>
-      <a href="/index.php"><img id='logo' src='/assets/images/kasai_logo.png'/></a>
+      <a href="/index.php"><img id='logo' src='/assets/icons/kasai_flame.png'/></a>
       <img id='menu-button' onclick='toggleMenu()' src='/assets/icons/menu-button.png' />
     </li>
     <li class='outer second'>
@@ -13,13 +13,10 @@
           <a href='/services.php'>SERVICES</a>
         </li>
         <li class='inner'>
-          <a href='/quote.php'>QUOTE</a>
-        </li>
-        <li class='inner'>
-          <a href='/equipment.php'>EQUIPMENT</a>
-        </li>
-        <li class='inner'>
           <a href='/experiences.php'>EXPERIENCES</a>
+        </li>
+        <li class='inner'>
+          <a href='/quote.php'>QUOTE</a>
         </li>
     </ul>
     </li>

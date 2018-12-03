@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Kasai Entertainment | An Experience Like No Other</title>
+    <title>Kasai Entertainment | Creating Moments. </title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="/third-party/slick/slick/slick-theme.css" />
@@ -13,14 +13,13 @@
   <?php include __DIR__."/partials/navbar.php"?>
   <div class="intro">
     <h1>KASAI ENTERTAINMENT</h1>
-    <h2>AN EXPERIENCE LIKE NO OTHER</h2>
+    <h2>CREATING <span id="wordChanger">MOMENTS</span>.</h2>
   </div>
   <section class="about-us">
     <div class="container">
       <h1>Something Different...</h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt.
-      </p>
+        Kasai is the japanese word for burning fire. We chose this name because our goal is to bring high energy and passion to every event we have the pleasure to be part of. We are a family-run entertainment company located in San Antonio, Texas that provides quality equipment and services with a positive and professional attitude.       </p>
     </div>
     <a class="button">Learn About Us</a>
   </section>
@@ -30,45 +29,45 @@
   <section class="packages">
     <div class="container">
       <div class="weddings clearfix">
-        <h1 class="parallax-h1">WEDDINGS</h1>
+        <h1 class="parallax-h1">ANY EVENT</h1>
         <p class="parallax-p">
           ipsum multos elit aliqua labore aliqua anim irure amet quae malis aliqua dolore
           quae enim anim tempor labore minim minim cillum minim nulla fore labore cillum
           fore tempor velit tempor illum summis magna sunt sint fore cillum dolore tamen
           malis minim magna irure labore cillum duis dolore malis aliqua cillum
         </p>
-        <div class="parallax-img" style="width:15rem; height: 20rem; background-color: gray;"></div>
+        <img class="parallax-img" src="/assets/images/wedding-aisle.jpg" style="width: 30%; height: auto;"/>
       </div>
       <div class="events clearfix">
-        <h1 class="parallax-h1">EVENTS</h1>
+        <h1 class="parallax-h1">QUALITY EQUIPMENT</h1>
         <p class="parallax-p">
           quorum summis malis sunt noster labore amet sunt cillum multos sunt tempor
           summis sunt minim quem quis nulla duis culpa multos sunt enim elit cillum anim
           nulla esse minim elit tamen quem veniam aliqua multos quis velit fore
         </p>
-        <div class="parallax-img" style="width:18rem; height: 18rem; background-color: gray;"></div>
+        <img class="parallax-img" src="/assets/images/controller.jpg" style="width: 30%; height: auto;"/>
       </div>
       <div class="rentals clearfix">
-        <h1 class="parallax-h1">RENTALS</h1>
+        <h1 class="parallax-h1">PROFESSIONAL SERVICES</h1>
         <p class="parallax-p">
           quorum malis quis quis duis ipsum elit labore nisi malis tempor enim esse quid
           amet dolor elit enim fore irure nulla summis dolor illum sunt quid fugiat elit
           tempor legam export amet culpa illum quis quis anim esse enim labore quorum nisi
           export ipsum duis
         </p>
-        <div class="parallax-img" style="width:24rem; height: 7rem; background-color: gray;"></div>
+        <img class="parallax-img" src="/assets/images/front-setup-view.jpg" style="width: 30%; height: auto;"/>
       </div>
     </div>
-    <a class="button black">Get A Quote</a>
+    <a class="button">Our Services</a>
   </section>
-  <section class="youtube-banner">
+  <!-- <section class="youtube-banner">
     <h1>Check out our live mixes every Tuesday.</h1>
     <h2>8pm CDT</h2>
     <div>
       <span class="icon"></span>
       <span class="icon"></span>
     </div>
-  </section>
+  </section> -->
   <section class="experiences">
     <div class="container">
       <h1>Fun Experiences...</h1>
@@ -82,9 +81,9 @@
   </section>
   <section class="contact-us">
     <div class="container">
-      <h1>Any Questions? Interested&#160;In&#160;Our&#160;Services?</h1>
+      <h1>Interested&#160;In&#160;Our&#160;Services? Get A Price Estimate.</h1>
     </div>
-    <a class="button">Contact Us</a>
+    <a class="button" style="margin-top: 7rem;">Get A Quote</a>
   </section>
   <?php include __DIR__."/partials/footer.php"?>
 
