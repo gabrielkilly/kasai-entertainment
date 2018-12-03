@@ -5,7 +5,8 @@ $(document).ready(function(){
     infinite: true,
     speed: 600,
     slidesToShow: 1,
-    adaptiveHeight: true
+    autoplay: true,
+    adaptiveHeight: false
     });
   $(".parallax-img").paroller({
     factor: 0.9,
@@ -19,7 +20,23 @@ $(document).ready(function(){
     factor: 0.5,
     type: 'foreground',
     direction: 'vertical' });
-  });
+  wordChanger();
+});
 function toggleMenu() {
   $("li.outer.second, li.outer.third").toggle();
+}
+var words = ["JOY", "DANCE", "MUSIC", "MEMORIES"];
+var iters = 0;
+function wordChanger() {
+  var span = $("span#wordChanger");
+  if(iters < words.length) {
+    span.text(words[iters])
+        .fadeIn(400)
+        .delay(1000)
+        .fadeOut(400, wordChanger)
+  } else {
+    span.text("MOMENTS")
+        .fadeIn(400);
+  }
+  iters = iters + 1;
 }
