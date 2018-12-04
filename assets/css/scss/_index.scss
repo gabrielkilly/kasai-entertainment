@@ -8,7 +8,7 @@
   //     rgba(0, 0, 0, 0.5)s
   //   ),
   //   /* bottom, image */
-  //   url(/assets/images/background.jpg);/
+  //   url(/assets/images/background.jpg);
   background-color: black;
   background-size: cover, cover;
   background-blend-mode: hard-light;
@@ -46,7 +46,11 @@ section.packages {
     position: relative;
     h1 {
       font-family: "josefin-sb";
+<<<<<<< HEAD
       font-size: 3rem;
+=======
+      font-size: 6rem;
+>>>>>>> c59377b0e8304fcc2dbaf286c8f07652dab13441
       letter-spacing:.6rem;
       background: linear-gradient(#D3D5DB, $k_gold, #FFFFFF);
       -webkit-background-clip: text;
