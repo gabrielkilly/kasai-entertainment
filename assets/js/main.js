@@ -1,5 +1,5 @@
 
-$(document).ready(function(){
+$(window).load(function(){
   $('.slider').slick({
     dots: true,
     infinite: true,
@@ -9,15 +9,15 @@ $(document).ready(function(){
     adaptiveHeight: false
     });
   $(".parallax-img").paroller({
-    factor: 0.9,
+    factor: 0.160,
     type: 'foreground',
     direction: 'vertical' });
   $(".parallax-h1").paroller({
-    factor: 0.2,
+    factor: 0.22,
     type: 'foreground',
     direction: 'vertical' });
   $(".parallax-p").paroller({
-    factor: 0.5,
+    factor: 0.18,
     type: 'foreground',
     direction: 'vertical' });
   wordChanger();

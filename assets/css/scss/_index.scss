@@ -8,7 +8,7 @@
   //     rgba(0, 0, 0, 0.5)s
   //   ),
   //   /* bottom, image */
-  //   url(/assets/images/background.jpg);
+  //   url(/assets/images/background.jpg);/
   background-color: black;
   background-size: cover, cover;
   background-blend-mode: hard-light;
@@ -46,7 +46,7 @@ section.packages {
     position: relative;
     h1 {
       font-family: "josefin-sb";
-      font-size: 6rem;
+      font-size: 3rem;
       letter-spacing:.6rem;
       background: linear-gradient(#D3D5DB, $k_gold, #FFFFFF);
       -webkit-background-clip: text;
@@ -64,7 +64,7 @@ section.packages {
         width: 60%;
       }
       .parallax-img {
-        margin-top: -200px;
+        margin-top: -150px;
         z-index: 1;
       }
       .parallax-p {
@@ -125,6 +125,7 @@ section.experiences {
   background: $k_gold;
   padding-top: 5rem;
   .container {
+    width: 100%;
     h1 {
       text-align: right;
     }
