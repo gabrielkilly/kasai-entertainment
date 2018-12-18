@@ -79,6 +79,7 @@ section {
   color: white;
   background: rgba(0,0,0,0);
   transition: .6s background-color, .6s color;
+  cursor: pointer;
   &.black {
     color: black;
     border-color: black;

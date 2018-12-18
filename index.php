@@ -23,9 +23,9 @@
     </div>
     <a class="button">Learn About Us</a>
   </section>
-  <div class="image">
+  <!-- <div class="image">
     <img src="/assets/images/introPage.jpg" />
-  </div>
+  </div> -->
   <section class="packages">
     <div class="container">
       <div class="weddings clearfix">
@@ -60,21 +60,18 @@
     </div>
     <a class="button">Our Services</a>
   </section>
-  <!-- <section class="youtube-banner">
-    <h1>Check out our live mixes every Tuesday.</h1>
-    <h2>8pm CDT</h2>
-    <div>
-      <span class="icon"></span>
-      <span class="icon"></span>
-    </div>
-  </section> -->
   <section class="experiences">
     <div class="container">
       <h1>Fun Experiences...</h1>
-      <div class="slider">
-          <div><div><img src="/assets/images/stock.jpg" /></div></div>
-          <div><div><img src="/assets/images/stock.jpg" /></div></div>
-          <div><div><img src="/assets/images/stock.jpg" /></div></div>
+      <div class="slider-container">
+        <div class="slider">
+            <div><img src="/assets/images/fire-dancer.jpg" /></div>
+            <div><iframe id="yt_0" src="http://www.youtube.com/embed/Ce8142lbWv4?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+            <div><img src="/assets/images/dance-experience.jpg" /></div>
+            <div><iframe id="yt_1" src="http://www.youtube.com/embed/bSGEExssB8M?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+            <div><img src="/assets/images/wedding-experience.jpg" /></div>
+            <div><iframe id="yt_2" src="http://www.youtube.com/embed/Fu3KUBjAZiw?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+        </div>
       </div>
     </div>
     <a class="button">See More</a>

@@ -13,9 +13,10 @@
   <?php include __DIR__."/partials/navbar.php"?>
   <section>
     <div class="container phone-number">
-      <h1>Call Our Number</h1>
+      <h1>Contact Us Yourself</h1>
       <p>
-        (808) 226 - 9916
+        (808) 226 - 9916 <br />
+        kasai.entertainment@gmail.com
       </p>
     </div>
     <div class="container contact-form">

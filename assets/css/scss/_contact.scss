@@ -1,7 +1,7 @@
 #contact
 {
   color: white;
-  background: linear-gradient(rgb(166, 96, 198), rgb(131, 149, 219));
+  background: linear-gradient(black, $k_gold 110%);
 }
 #contact h1
 {
@@ -21,7 +21,7 @@
     margin-top: -2rem;
     padding-bottom: 0;
     font-family: hind-sb;
-    font-size: 2.5rem;
+    font-size: 2rem;
   }
 }
 
@@ -32,6 +32,15 @@
     position: relative;
     margin: 6rem auto;
     width: 55%;
+    @media screen and (max-width: 1200-1px) {
+      width: 70%;
+    }
+    @media screen and (max-width: 800-1px) {
+      width: 80%;
+    }
+    @media screen and (max-width: 675-1px) {
+      width: 85%;
+    }
     div
     {
       margin: 1rem 0;

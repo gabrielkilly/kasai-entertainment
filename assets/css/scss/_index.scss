@@ -2,13 +2,6 @@
   color: white;
 }
 #index .intro {
-  // background:
-  // linear-gradient(
-  //     rgba(0, 0, 0, 0.5),
-  //     rgba(0, 0, 0, 0.5)s
-  //   ),
-  //   /* bottom, image */
-  //   url(/assets/images/background.jpg);
   background-color: black;
   background-size: cover, cover;
   background-blend-mode: hard-light;
@@ -18,24 +11,26 @@
 #index .intro h1 {
   padding: 0 5px;
   font-size: 4.5rem;
-  -webkit-text-stroke: 1px black;
-  color: $k_gold;
-  text-shadow:
-      3px 3px 0 #000,
-    -1px -1px 0 #000,
-     1px -1px 0 #000,
-     -1px 1px 0 #000,
-      1px 1px 0 #000;
+  background: linear-gradient(to right, $k_gold 30%, white 120%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
 }
 #index .intro h2 {
   font-family: josefin-l;
-  color: $k_gold;
   font-size: 2rem;
   margin-top: .8rem;
+  background: linear-gradient(to right, $k_gold 30%, white 120%);
+
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 
 section.about-us {
-  background: linear-gradient(rgb(166, 96, 198), rgb(131, 149, 219));
+  // background: linear-gradient(black, $k_gold);
+  background-color: $k_gold;
 }
 
 section.packages {
@@ -46,11 +41,7 @@ section.packages {
     position: relative;
     h1 {
       font-family: "josefin-sb";
-<<<<<<< HEAD
       font-size: 3rem;
-=======
-      font-size: 6rem;
->>>>>>> c59377b0e8304fcc2dbaf286c8f07652dab13441
       letter-spacing:.6rem;
       background: linear-gradient(#D3D5DB, $k_gold, #FFFFFF);
       -webkit-background-clip: text;
@@ -129,32 +120,85 @@ section.experiences {
   background: $k_gold;
   padding-top: 5rem;
   .container {
-    width: 100%;
+    padding: 3rem 0px;
+    width: 85%;
     h1 {
       text-align: right;
     }
-    .slider {
+    >.slider-container {
       padding: 3rem 0;
-      div {
-        position: relative;
-        div {
-          img {
-            width: 100%;
-            margin: auto;
-            height: auto;
-            border-radius: 1%;
+      .slider {
+        width: 100%;
+        margin: 0px auto;
+        @media screen and (max-width: 530-1px) {
+          width: 90%;
+        }
+        .slick-slide{
+          margin: 10px;
+          img, iframe {
+            height: 500px;
+            @media screen and (max-width: 1200-1px) {
+              height: 400px;
+            }
+            @media screen and (max-width: 860-1px) {
+              height: 250px;
+            }
+            @media screen and (max-width: 530-1px) {
+              height: 150px;
+            }
+          }
+          iframe {
+            width: 889px;
+            @media screen and (max-width: 1200-1px) {
+              width: 711px;
+            }
+            @media screen and (max-width: 860-1px) {
+              width: 444px;
+            }
+            @media screen and (max-width: 530-1px) {
+              width: 269px;
+            }
           }
         }
       }
     }
-  }
   .button {
     margin-top: 3rem;
+    }
+  }
+}
+.slick-prev:before, .slick-next:before {
+  position: relative;
+  color: black;
+  font-size: 40px;
+  @media screen and (max-width: 900-1px) {
+    font-size: 25px;
   }
 }
 
+.slick-prev:before {
+  right: 38px;
+  @media screen and (max-width: 900-1px) {
+    right: 6px;
+  }
+}
+.slick-next:before {
+  left: 20px;
+  @media screen and (max-width: 900-1px) {
+    left: 0px;
+  }
+}
+.slick-slide img, .slick-slide iframe {
+  transition: opacity 1s;
+  opacity: 0.5;
+}
+.slick-slide.slick-center img, .slick-slide.slick-center iframe {
+  transition: opacity 1s;
+  opacity: 1;
+}
+
 section.contact-us {
-  background: linear-gradient(rgba(153,0,22,0.7), rgba(153,0,22,0.7)), url(/assets/images/eventImg.jpg);
+  background: linear-gradient(rgba(62, 52, 52, 0.75), rgba(62, 52, 52, 0.75)), url(/assets/images/eventImg.jpg);
   background-size: cover, cover;
   background-blend-mode: hard-light;
   height: 20rem;

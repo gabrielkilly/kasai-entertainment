@@ -41,7 +41,7 @@
         <div class="text-content">
           <h1>ATMOSPHERE</h1>
           <p>summis anim velit noster aute labore tamen eram quae magna summis quid nisi eram
-          fugiat aute aute nulla tempor magna sunt eram ipsum export anim velit ipsum duis
+    Website for Kasai Entertainment made using html, css, javascript, and php.       fugiat aute aute nulla tempor magna sunt eram ipsum export anim velit ipsum duis
           tempor aute legam quorum quem culpa amet nisi illum tamen irure malis</p>
         </div>
         <img src="https://picsum.photos/400/200"/>
