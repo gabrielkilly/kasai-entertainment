@@ -57,7 +57,7 @@
     border-top: 0;
     border-left:0;
     border-right: 0;
-    border-bottom-color: $k_gold;
+    border-bottom-color: white;
   }
   li.inner.no-underline:hover {
     border: 0;
@@ -126,6 +126,9 @@
       position: relative;
       top: 230px;
     }
+    li.inner {
+      padding: 0;
+    }
     li.inner a {
       font-size: 18px;
     }
@@ -134,6 +137,19 @@
     }
     #menu-button{
       top: 0px;
+    }
+    #contact-link {
+      font-size: 18px;
+      &::before {
+        position: absolute;
+        left: 7%;
+        width: 25px;
+        height: 25px;
+        margin-top: 18px;
+      }
+    }
+    li.inner.no-underline {
+      background-color: $k_gold;
     }
   }
 

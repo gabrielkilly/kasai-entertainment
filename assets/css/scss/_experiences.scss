@@ -1,0 +1,16 @@
+body#experiences {
+  background-color: $k_gold;
+  .grid {
+    padding: 150px 0 50px 0;
+    width: 95%;
+    margin: 0 auto;
+    .grid-item {
+      margin-top: 30px;
+      width: auto;
+      height: auto;
+      * { height: 20rem;}
+      img { width: auto;}
+      iframe { width: 35.55rem; }
+    }
+  }
+}

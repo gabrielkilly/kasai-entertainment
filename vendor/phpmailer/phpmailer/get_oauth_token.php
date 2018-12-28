@@ -30,8 +30,7 @@
 
 namespace PHPMailer\PHPMailer;
 
-/**
- * Aliases for League Provider Classes
+ /* Aliases for League Provider Classes
  * Make sure you have added these to your composer.json and run `composer install`
  * Plenty to choose from here:
  * @see http://oauth2-client.thephpleague.com/providers/thirdparty/
@@ -74,12 +73,12 @@ if (!in_array($providerName, ['Google', 'Microsoft', 'Yahoo'])) {
 
 //These details are obtained by setting up an app in the Google developer console,
 //or whichever provider you're using.
-$clientId = 'RANDOMCHARS-----duv1n2.apps.googleusercontent.com';
-$clientSecret = 'RANDOMCHARS-----lGyjPcRtvP';
+$clientId = '880244140080-6epafjdc4ui03p9im3f52i33r4fkepev.apps.googleusercontent.com';
+$clientSecret = 'PzFMB9mz85PpWGH8GRuprAVF';
 
 //If this automatic URL doesn't work, set it yourself manually to the URL of this script
-$redirectUri = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
-//$redirectUri = 'http://localhost/PHPMailer/redirect';
+//$redirectUri = (isset($_SERVER['HTTPS']) ? 'https://' : 'http://') . $_SERVER['HTTP_HOST'] . $_SERVER['PHP_SELF'];
+$redirectUri = 'http://kasai-entertainment.com/vendor/phpmailer/phpmailer/get_oauth_token.php';
 
 $params = [
     'clientId' => $clientId,

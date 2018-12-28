@@ -4,7 +4,7 @@
       <ul class='inner'>
         <li class='inner'>
           <p>
-            © Kasai Entertaiment. All Rights Reserved. |  Designed by Gabriel Killy
+            © Kasai Entertaiment. All Rights Reserved. <span class="optional">|  Designed by Gabriel Killy</span>
           </p>
         </li>
       </ul>

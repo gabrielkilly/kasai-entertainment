@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="/third-party/slick/slick/slick-theme.css" />
     <link rel="stylesheet" href="/third-party/slick/slick/slick.css" />
     <link rel="stylesheet" href="/assets/css/styles.min.css">
+    <link rel="icon" href="/assets/icons/kasai_flame.png">
 </head>
 
 <body id="index">
@@ -31,10 +32,9 @@
       <div class="weddings clearfix">
         <h1 class="parallax-h1">ANY EVENT</h1>
         <p class="parallax-p">
-          ipsum multos elit aliqua labore aliqua anim irure amet quae malis aliqua dolore
-          quae enim anim tempor labore minim minim cillum minim nulla fore labore cillum
-          fore tempor velit tempor illum summis magna sunt sint fore cillum dolore tamen
-          malis minim magna irure labore cillum duis dolore malis aliqua cillum
+          quorum summis malis sunt noster labore amet sunt cillum multos sunt tempor
+          summis sunt minim quem quis nulla duis culpa multos sunt enim elit cillum anim
+          nulla esse minim elit tamen quem veniam aliqua multos quis velit fore
         </p>
         <img class="parallax-img" src="/assets/images/wedding-aisle.jpg" style="width: 30%; height: auto;"/>
       </div>
@@ -89,5 +89,6 @@
   <script src="/third-party/slick/slick/slick.min.js"></script>
   <script src="/third-party/paroller.js/dist/jquery.paroller.min.js"></script>
   <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/index.js"></script>
 </body>
 </html>

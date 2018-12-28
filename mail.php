@@ -1,10 +1,8 @@
 <?php
 // Import PHPMailer classes into the global namespace
 // These must be at the top of your script, not inside a function
-console.log("hi");
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-console.log("hi");
 //Load Composer's autoloader
 require 'vendor/autoload.php';
 
@@ -14,16 +12,16 @@ try {
     $mail->SMTPDebug = 2;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'smtp.gmail.com';  // Specify main and backup SMTP servers
-    $mail->SMTPAuth = true;                               // Enable SMTP authentication
-    $mail->Username = 'kasai.entertainment@gmail.com';                 // SMTP username
-    $mail->Password = 'raylisa2388';                           // SMTP password
+    $mail->SMTPAuth = true;
+    $mail->Username = 'gabykilly@gmail.com';                 // SMTP username
+    $mail->Password = 'wdcgmkhugmeakrfj';                           // SMTP password
     $mail->SMTPSecure = 'tls';                            // Enable TLS encryption, `ssl` also accepted
     $mail->Port = 587;                                    // TCP port to connect to
 
     //Recipients
-    $mail->setFrom('kasai.entertainment@gmail.com', 'Mailer');
+    $mail->setFrom('gabykilly@gmail.com', 'Mailer');
     $mail->addAddress('kasai.entertainment@gmail.com', 'John Bro');     // Add a recipient
-    //$mail->addAddress('ellen@example.com');               // Name is optional
+    $mail->addAddress('gabykilly@gmail.com');               // Name is optional
     //$mail->addReplyTo('info@example.com', 'Information');
     //$mail->addCC('cc@example.com');
     //mail->addBCC('bcc@example.com');

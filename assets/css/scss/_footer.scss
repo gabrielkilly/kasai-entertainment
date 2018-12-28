@@ -54,6 +54,13 @@
     text-decoration: none;
     color: white;
     font-size: 1.1rem;
+    >.optional {
+      display: inline;
+      @media screen and (max-width: 600-1px) {
+          display: none;
+        }
+      }
+    }
   }
   li.inner svg {
     height:4rem;
@@ -61,4 +68,3 @@
     width: auto;
 
   }
-}

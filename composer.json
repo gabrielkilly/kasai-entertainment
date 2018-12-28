@@ -1,5 +1,11 @@
 {
     "require": {
-        "phpmailer/phpmailer": "^6.0"
+        "phpmailer/phpmailer": "^6.0",
+        "league/oauth2-google": "*",
+        "ext-mbstring": "*",
+        "hayageek/oauth2-yahoo": "*",
+        "psr/log": "*",
+        "stevenmaguire/oauth2-microsoft": "*",
+        "symfony/polyfill-mbstring": "*"
     }
 }

@@ -37,7 +37,10 @@ section.packages {
   color: white;
   background-color: black;
   padding: 6rem 0 10rem 0;
-  .container {
+  @media screen and (max-width: 500-1px) {
+    padding: 4rem 0 12rem 0;
+  }
+  >.container {
     position: relative;
     h1 {
       font-family: "josefin-sb";
@@ -47,55 +50,72 @@ section.packages {
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       padding: 2rem 0;
+      width: 65%;
+      @media screen and (max-width: 900-1px) {
+        font-size: 2.5rem;
+      }
+      @media screen and (max-width: 600-1px) {
+        font-size: 2rem;
+      }
     }
-    div {
+    p {
+      line-height: 2.2rem;
+      font-family: hind-l;
+      font-size: 1.3rem;
+      position: absolute;
+      width: 60%;
+      margin-top: -20px;
+      @media screen and (max-width: 900-1px) {
+        font-size: 1.1rem;
+        line-height: 1.86rem;
+      }
+    }
+    >div {
       padding: 3rem 0;
       position:relative;
-      p {
-        line-height: 2.2rem;
-        font-family: hind-l;
-        font-size: 1.3rem;
-        position: absolute;
-        width: 60%;
+      @media screen and (max-width: 1200-1px) {
+        padding: 5rem 0;
       }
-      .parallax-img {
+      @media screen and (max-width: 900-1px) {
+        padding: 3rem 0;
+      }
+      >img.parallax-img {
         margin-top: -150px;
-        z-index: 1;
-      }
-      .parallax-p {
-        margin-top: -20px;
-      }
-      .parallax-h1 {
-        z-index: 10;
+        width: 30%;
+        @media screen and (max-width: 1200-1px) {
+          width: 35%;
+          margin-top: -100px;
+        }
+        @media screen and (max-width: 900-1px) {
+          margin-top: -50px;
+        }
+        @media screen and (max-width: 900-1px) {
+          margin-top: -20px;
+        }
       }
       &.weddings {
-        p {
-
-        }
-        img {
+        >img {
           float:right;
-        //  margin-top: -200px;
         }
       }
       &.events {
-        h1 {
+        >h1 {
+          position: relative;
+          left: 35%;
           text-align: right;
         }
-        p {
+        >p {
           right: 0;
         }
-        img {
+        >img {
           float: left;
         }
       }
       &.rentals {
-        h1 {
-
-        }
-        p {
+        >p {
           float: left;
         }
-        img {
+        >img {
           float:right;
         }
       }
@@ -104,18 +124,21 @@ section.packages {
   .button {
     position: relative;
     top: 6rem;
+    @media screen and (max-width: 500-1px) {
+      top: 8rem;
+    }
   }
 }
-section.youtube-banner {
-  height: 6rem;
-  position: relative;
-  top: 8rem;
-  background: url('/assets/images/youtube_banner.png'), linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0));
-  background-position: left, center;
-  background-size: contain, cover;
-  background-repeat: no-repeat;
-
-}
+// section.youtube-banner {
+//   height: 6rem;
+//   position: relative;
+//   top: 8rem;
+//   background: url('/assets/images/youtube_banner.png'), linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0));
+//   background-position: left, center;
+//   background-size: contain, cover;
+//   background-repeat: no-repeat;
+//
+// }
 section.experiences {
   background: $k_gold;
   padding-top: 5rem;
@@ -198,7 +221,7 @@ section.experiences {
 }
 
 section.contact-us {
-  background: linear-gradient(rgba(62, 52, 52, 0.75), rgba(62, 52, 52, 0.75)), url(/assets/images/eventImg.jpg);
+  background: linear-gradient(rgba(62, 52, 52, 0.9), rgba(62, 52, 52, 0.9)), url(/assets/images/eventImg.jpg);
   background-size: cover, cover;
   background-blend-mode: hard-light;
   height: 20rem;
