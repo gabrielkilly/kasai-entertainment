@@ -12,10 +12,19 @@
   <div class="grid">
     <div class="grid-item"><img src="/assets/images/fire-dancer.jpg" /></div>
     <div class="grid-item"><iframe id="yt_0" src="http://www.youtube.com/embed/Ce8142lbWv4?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+    <div class="grid-item"><img src="/assets/images/holiday-party-2.JPG" /></div>
     <div class="grid-item"><img src="/assets/images/wedding-experience.jpg" /></div>
     <div class="grid-item"><iframe id="yt_1" src="http://www.youtube.com/embed/bSGEExssB8M?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
     <div class="grid-item"><img src="/assets/images/dance-experience.jpg" /></div>
     <div class="grid-item"><iframe id="yt_2" src="http://www.youtube.com/embed/Fu3KUBjAZiw?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+    <div class="grid-item"><img src="/assets/images/tavern-event.JPG" /></div>
+    <div class="grid-item"><img src="/assets/images/lady-dancer2.JPG" /></div>
+    <div class="grid-item"><iframe id="yt_3" src="http://www.youtube.com/embed/IO98fuN__YY?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+    <div class="grid-item"><img src="/assets/images/holiday-party-crew.jpg" /></div>
+    <div class="grid-item"><iframe id="yt_5" src="http://www.youtube.com/embed/Fu3KUBjAZiw?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+    <div class="grid-item"><iframe id="yt_4" src="http://www.youtube.com/embed/TccjoSYaOqM?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
+    <div class="grid-item"><img src="/assets/images/lady-dancer.jpg" /></div>
+    <div class="grid-item"><img src="/assets/images/christmas-trees.JPG" /></div>
   </div>
   <?php include __DIR__."/partials/footer.php"?>
   <script src="/third-party/jquery/jquery-3.3.1.min.js"></script>

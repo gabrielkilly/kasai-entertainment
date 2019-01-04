@@ -1,7 +1,8 @@
 $(window).load(function(){
   $('.grid').masonry({
       itemSelector: '.grid-item',
-      gutter: 10,
-      columnWidth: 60
+      gutter: 5,
+      columnWidth: 150,
+      fitWidth: true
   });
 });

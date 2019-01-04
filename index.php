@@ -16,13 +16,13 @@
     <h1>KASAI ENTERTAINMENT</h1>
     <h2>CREATING <span id="wordChanger">MOMENTS</span>.</h2>
   </div>
-  <section class="about-us">
+  <section class="about-us" >
     <div class="container">
       <h1>Something Different...</h1>
       <p>
         Kasai is the japanese word for burning fire. We chose this name because our goal is to bring high energy and passion to every event we have the pleasure to be part of. We are a family-run entertainment company located in San Antonio, Texas that provides quality equipment and services with a positive and professional attitude.       </p>
     </div>
-    <a class="button">Learn About Us</a>
+    <a class="button" href="/about.php">Learn About Us</a>
   </section>
   <!-- <div class="image">
     <img src="/assets/images/introPage.jpg" />
@@ -58,7 +58,7 @@
         <img class="parallax-img" src="/assets/images/front-setup-view.jpg" style="width: 30%; height: auto;"/>
       </div>
     </div>
-    <a class="button">Our Services</a>
+    <a class="button" href="/services.php">Our Services</a>
   </section>
   <section class="experiences">
     <div class="container">
@@ -74,7 +74,7 @@
         </div>
       </div>
     </div>
-    <a class="button">See More</a>
+    <a class="button" href="/experiences.php">See More</a>
   </section>
   <section class="contact-us">
     <div class="container">
