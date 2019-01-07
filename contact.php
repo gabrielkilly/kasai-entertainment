@@ -8,6 +8,12 @@
     <link rel="icon" href="/assets/icons/kasai_flame.png">
 </head>
 <body id="contact">
+  <?php if(isset($_GET['error'])) {
+    $errorMessage = 'Sorry, there was a problem with sending your message. Please use one of our other contact methods.\nError Info: '.$_GET['error']; ?>
+    <script>
+      alert('<?php echo($errorMessage); ?>');
+    </script>
+  <?php } ?>
   <?php include __DIR__."/partials/navbar.php"?>
   <section>
     <div class="container phone-number">
@@ -19,7 +25,7 @@
     </div>
     <div class="container contact-form">
       <h1>Or Message Us Here</h1>
-      <form action="/assets/php/mail.php">
+      <form action="/assets/php/mail.php" method="post">
         <div class="clearfix">
           <div class="left">
             <label for="name">Name</label>
@@ -37,7 +43,7 @@
                     class="inputStyle"></textarea>
         </div>
 
-        <button type="submit" class="button">Send</a>
+        <button type="submit" name="submit" class="button">Send</a>
       </form>
     </div>
   </section>

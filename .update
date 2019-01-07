@@ -1,0 +1,2 @@
+#!/bin/sh
+rsync -avze ssh --exclude ".git/" --exclude ".environment" --exclude ".update" /home/gkilly/Projects/Sites/kasai-entertainment/* kasai@kasai-entertainment.com:~/public_html

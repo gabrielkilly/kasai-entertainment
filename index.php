@@ -13,6 +13,7 @@
 <body id="index">
   <?php include __DIR__."/partials/navbar.php"?>
   <div class="intro">
+    <img src="/assets/icons/kasai_flame.png" style="margin-bottom: 18px;"/>
     <h1>KASAI ENTERTAINMENT</h1>
     <h2>CREATING <span id="wordChanger">MOMENTS</span>.</h2>
   </div>
