@@ -21,8 +21,9 @@ try {
     //Recipients
     $response = "Thank you for your interest in Kasai Entertainment. We will be writing back to you within the next 24 hours.";
     $mail->setFrom('mailer@kasai-entertainment.com', 'Mailer');
-    $mail->addAddress('kasai.entertaiment@gmail.com');     // Add a recipient
-  //  $mail->addAddress('8082269974@tmomail.net', 'Lisa O\'Neill Thomas'); // Name is optional
+    $mail->addAddress('kasai.entertainment@gmail.com');     // Add a recipient
+    $mail->addAddress('8082269974@tmomail.net', 'Lisa O\'Neill Thomas'); // Name is optional
+    $mail->addAddress('gabykilly@gmail.com');
     $mail->addReplyTo('gabykilly@gmail.com', $response);
     //$mail->addCC('cc@example.com');
     //mail->addBCC('bcc@example.com');

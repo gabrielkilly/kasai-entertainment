@@ -36,6 +36,10 @@
             <input name="number" type="text" class="inputStyle"/>
           </div>
         </div>
+        <div class="full-text">
+          <label for="email">E-Mail</label>
+          <input name="email" type="text" class="inputStyle"/>
+        </div>
         <div class="message">
           <label for="message">Message</label>
           <textarea name="message" rows="8" cols="40"
@@ -43,7 +47,7 @@
                     class="inputStyle"></textarea>
         </div>
 
-        <button type="submit" name="submit" class="button">Send</a>
+        <button type="submit" name="submit" class="button" style="margin-top: 3rem;">Send</a>
       </form>
     </div>
   </section>
