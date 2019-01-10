@@ -12,7 +12,7 @@
 //       players[i] = new YT.Player('yt_' + i.toString())
 //     }
 // }
-$(window).load(function(){
+$(document).ready(function(){
   slickSliderMaker();
   parallaxMaker();
   wordChanger();
