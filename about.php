@@ -10,11 +10,15 @@
 </head>
 <body id="about" class="aos-all">
   <?php include __DIR__."/partials/navbar.php"?>
-  <div class="beg-padding">
-    <div class="media">
-      <img data-aos="fade-up" src="/assets/images/ray.jpg" />
+  <div class="intro">
+    <h1>Something IDK</h1>
+    <h2>Something else</h2>
+  </div>
+  <div class="">
+    <div class="media" data-aos="fade-left">
+      <img src="/assets/images/ray.jpg" id="ray"/>
     </div>
-    <div class="text">
+    <div class="text" data-aos="fade-left">
       <h2>RAY THOMAS</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate dictum lectus, convallis feugiat lorem efficitur sed. Suspendisse pulvinar libero nec ultricies interdum. Fusce eget purus ut dolor tempor iaculis eu vel tellus. Donec a diam sed est semper cursus. Nulla a eros ullamcorper, elementum libero sed.
@@ -37,10 +41,10 @@
     </div>
   </div>
   <div class="reverse">
-    <div class="media ">
-      <img data-aos="fade-up" src="/assets/images/lisa.jpg" />
+    <div class="media" data-aos="fade-right">
+      <img src="/assets/images/lisa.jpg" / id="lisa">
     </div>
-    <div class="text">
+    <div class="text" data-aos="fade-right">
       <h2>LISA THOMAS</h2>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce vulputate dictum lectus, convallis feugiat lorem efficitur sed. Suspendisse pulvinar libero nec ultricies interdum. Fusce eget purus ut dolor tempor iaculis eu vel tellus. Donec a diam sed est semper cursus. Nulla a eros ullamcorper, elementum libero sed.

@@ -2,5 +2,14 @@
 .right { float:right; }
 .flex { display: flex; }
 .reverse { flex-direction: row-reverse;}
-.beg-padding { padding-top: 150px; }
+.beg-padding { padding-top: 50px; }
 .gold { background-color: $k_gold; }
+.intro {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}

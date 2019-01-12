@@ -19,7 +19,7 @@
   </div>
   <section class="about-us" >
     <div class="container">
-      <h1>Something Different...</h1>
+      <h1>Something Different</h1>
       <p>
         Kasai is the japanese word for burning fire. We chose this name because our goal is to bring high energy and passion to every event we have the pleasure to be part of. We are a family-run entertainment company located in San Antonio, Texas that provides quality equipment and services with a positive and professional attitude.       </p>
     </div>
@@ -63,7 +63,7 @@
   </section>
   <section class="experiences">
     <div class="container">
-      <h1>Fun Experiences...</h1>
+      <h1>Fun Experiences</h1>
       <div class="slider-container">
         <div class="slider">
             <div><img src="/assets/images/fire-dancer.jpg" /></div>
