@@ -10,24 +10,46 @@ body#about {
     } &:nth-child(odd) {
       background-color: $k_gold;
     }
-    padding: 50px 0;
+    //padding: 50px 0;
     >div {
       width: 50%;
-      height: 500px;
-      padding: 10px 0;
+      height: auto;
+      //padding: 10px 0;
       @media screen and (max-width: 900px) {
         width: 100%;
         height: auto;
       }
     }
     div.media {
+      overflow: hidden;
       >img {
         display: block;
         width: auto;
-        height: 500px;
+        height: 100vh;
         margin: 0 auto;
-        @media  screen and (max-width: 900px) {
-          height: 500px;
+        &#lisa {
+          @media screen and (max-width: 900px) {
+            width: auto;
+            margin: auto;
+            height: 24rem;
+            padding-top: 40px;
+            padding-bottom: 20px;
+          }
+          @media screen and (min-width: 900+1px) and (max-width: 1350px) {
+            position: relative;
+            right: 12%;
+          }
+        }
+        &#ray {
+          width: 100%;
+          height: auto;
+          @media screen and (max-width: 900px) {
+            width: auto;
+            margin: auto;
+            height: 24rem;
+            padding-top: 40px;
+            padding-bottom: 20px;
+          }
         }
       }
     }
@@ -36,6 +58,7 @@ body#about {
       flex-direction: column;
       justify-content: center; // OR space-evenly
       align-items: center;
+      padding: 20px 0 40px 0;
       > * {
         width: 75%;
         padding: 10px;
@@ -61,6 +84,9 @@ body#about {
           height: 2rem;
         }
       }
+    }
+    &.intro {
+      color: white;
     }
   }
 }
