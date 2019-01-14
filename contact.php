@@ -2,10 +2,7 @@
 <html>
 <head>
     <title>Kasai Entertainment | An Experience Like No Other</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/styles.min.css">
-    <link rel="icon" href="/assets/icons/kasai_flame.png">
+    <?php include __DIR__."/partials/head.php"?>
 </head>
 <body id="contact">
   <?php if(isset($_GET['error'])) {
