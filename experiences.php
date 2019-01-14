@@ -2,12 +2,9 @@
 <html>
 <head>
     <title>Kasai Entertainment | An Experience Like No Other</title>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/assets/css/styles.min.css">
     <link rel="stylesheet" href="/third-party/magnific-popup/magnific-popup.css">
-    <link rel="icon" href="/assets/icons/kasai_flame.png">
-</head>
+    <?php include __DIR__."/partials/head.php"?>
+  </head>
 <body id="experiences">
   <?php include __DIR__."/partials/navbar.php"?>
   <div class="grid">
