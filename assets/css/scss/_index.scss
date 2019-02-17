@@ -9,6 +9,7 @@
 }
 
 #index .intro h1 {
+  letter-spacing: normal;
   padding: 0 5px;
   font-size: 4.5rem;
   background: linear-gradient(to right, $k_gold 30%, white 120%);
@@ -64,20 +65,14 @@ section.packages {
       font-size: 1.3rem;
       position: absolute;
       width: 60%;
-      margin-top: -20px;
-      @media screen and (max-width: 900-1px) {
-        font-size: 1.1rem;
-        line-height: 1.86rem;
-      }
+      margin-top: -20px
     }
     >div {
-      padding: 3rem 0;
+      height: auto;
+      padding: 4rem 0;
       position:relative;
       @media screen and (max-width: 1200-1px) {
         padding: 5rem 0;
-      }
-      @media screen and (max-width: 900-1px) {
-        padding: 3rem 0;
       }
       >img.parallax-img {
         margin-top: -150px;
@@ -86,16 +81,13 @@ section.packages {
           width: 35%;
           margin-top: -100px;
         }
-        @media screen and (max-width: 900-1px) {
-          margin-top: -50px;
-        }
-        @media screen and (max-width: 900-1px) {
-          margin-top: -20px;
-        }
       }
       &.weddings {
+        padding-bottom: 8.5rem;
         >img {
           float:right;
+          position: relative;
+          top: 5rem;
         }
       }
       &.events {
@@ -109,6 +101,8 @@ section.packages {
         }
         >img {
           float: left;
+          position: relative;
+          top: 5rem;
         }
       }
       &.rentals {

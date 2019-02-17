@@ -26,6 +26,7 @@ html {
 
 body {
   font-family: josefin-r, sans-serif;
+  color: white;
 }
 p {
   font-family: hind-r;
@@ -95,9 +96,4 @@ div.image {
     height: auto;
     width: 100%;
   }
-}
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
 }

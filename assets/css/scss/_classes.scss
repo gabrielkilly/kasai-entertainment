@@ -4,6 +4,13 @@
 .reverse { flex-direction: row-reverse;}
 .beg-padding { padding-top: 50px; }
 .gold { background-color: $k_gold; }
+.josefin-bold { font-family: josefin-b }
+.hind-bold { font-family: hind-b }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 .intro {
   height: 100vh;
   width: 100%;
@@ -12,4 +19,16 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: black;
+  h1 {
+    font-size: 4.2rem;
+    letter-spacing: 1.5rem;
+    position: relative;
+    top: 10px;
+  }
+  p {
+    font-family: hind-r;
+    font-size: 1.3rem;
+    line-height: 2px;
+  }
 }

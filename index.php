@@ -30,33 +30,26 @@
       <div class="weddings clearfix">
         <h1 class="parallax-h1">ANY EVENT</h1>
         <p class="parallax-p">
-          quorum summis malis sunt noster labore amet sunt cillum multos sunt tempor
-          summis sunt minim quem quis nulla duis culpa multos sunt enim elit cillum anim
-          nulla esse minim elit tamen quem veniam aliqua multos quis velit fore
+          What would the perfect Professional Audio system be like? First and foremost, it would produce clean, clear, high-fidelity, full-range sound with plenty of volume. Secondly, it would be consistent in all acoustic environments. Kasai entertainment professional grade Audio equipment satisfies all these requirements by providing all audio with BOSE L1 Model II systems and Electro Voice wooden cabinets. Equipment from Kasai Entertainment produces an ultra-wide dispersion and balanced sound pattern that projects evenly and introduces a new level of sound quality to your event.
         </p>
         <img class="parallax-img" src="/assets/images/wedding-aisle.jpg" style="width: 30%; height: auto;"/>
       </div>
       <div class="events clearfix">
         <h1 class="parallax-h1">QUALITY EQUIPMENT</h1>
         <p class="parallax-p">
-          quorum summis malis sunt noster labore amet sunt cillum multos sunt tempor
-          summis sunt minim quem quis nulla duis culpa multos sunt enim elit cillum anim
-          nulla esse minim elit tamen quem veniam aliqua multos quis velit fore
+          Kasai Entertainment aims to give paramount service while providing customer satisfaction. We approach each project as a unique experience, which requires creativity and an ability to listen to our clients’ needs. To ensure that we meet the expectations of each client, we ask our clients to complete a short satisfaction survey at the close of each engagement. This survey gives our clients a means to provide feedback that will enable us to meet their needs in the future. We hope this information helps you get to know us better.
         </p>
         <img class="parallax-img" src="/assets/images/controller.jpg" style="width: 30%; height: auto;"/>
       </div>
       <div class="rentals clearfix">
         <h1 class="parallax-h1">PROFESSIONAL SERVICES</h1>
         <p class="parallax-p">
-          quorum malis quis quis duis ipsum elit labore nisi malis tempor enim esse quid
-          amet dolor elit enim fore irure nulla summis dolor illum sunt quid fugiat elit
-          tempor legam export amet culpa illum quis quis anim esse enim labore quorum nisi
-          export ipsum duis
+          At your event, Kasai Entertainments main goals is to provide a special touch to your event that will take your breath away. Every event that we host we aspire to create exceptional memories, moments, and overall joy. Our services include, but are not limited to: <span class="hind-bold">weddings</span>, <span class="hind-bold">corporate events</span>, <span class="hind-bold">parties and celebreations</span>, <span class="hind-bold">multiday festivals</span>, <span class="hind-bold">peroformances</span>, and <span class="hind-bold">more</span>.
         </p>
         <img class="parallax-img" src="/assets/images/front-setup-view.jpg" style="width: 30%; height: auto;"/>
       </div>
     </div>
-    <a class="button" href="/services.php">Our Services</a>
+    <a class="button" href="/packages.php">Our Packages</a>
   </section>
   <section class="experiences">
     <div class="container">
@@ -71,7 +64,7 @@
             <div><iframe id="yt_2" src="http://www.youtube.com/embed/Fu3KUBjAZiw?enablejsapi=1" frameborder="0" allowfullscreen></iframe></div>
         </div>
       </div>
-      
+
     </div>
     <a class="button" href="/experiences.php">See More</a>
   </section>

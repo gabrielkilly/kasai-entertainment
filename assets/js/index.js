@@ -35,15 +35,15 @@ function wordChanger() {
 }
 function parallaxMaker() {
   $(".parallax-img").paroller({
-    factor: 0.160,
-    type: 'foreground',
-    direction: 'vertical' });
-  $(".parallax-h1").paroller({
     factor: 0.22,
     type: 'foreground',
     direction: 'vertical' });
+  $(".parallax-h1").paroller({
+    factor: 0.15,
+    type: 'foreground',
+    direction: 'vertical' });
   $(".parallax-p").paroller({
-    factor: 0.18,
+    factor: 0.20,
     type: 'foreground',
     direction: 'vertical' });
 }
