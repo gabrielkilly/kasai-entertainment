@@ -7,12 +7,14 @@
   </head>
 <body id="about" class="aos-all">
   <?php include __DIR__."/partials/navbar.php"?>
-  <div class="intro beg-padding">
+  <div class="intro">
     <h1>ABOUT US</h1>
-    <p>In 2016, Ray and Lisa Thomas Owners of Kasai Entertainment had one simple idea – to provide the greatest, magical moments using cutting-edge sound and lighting equipment. Kasai Entertainment has strived to increase its range of quality products that can add a personal touch to any event. Using the latest cutting-edge hardware and software technologies, the team is constantly introducing new products to add to the range – with an emphasis on quality over quantity.   Our goal is to provide a creative platform for our client’s events; and the company’s growth over the years shows our success in doing just that.
-    </p>
+    <div>
+      <p>In 2016, Ray and Lisa Thomas Owners of Kasai Entertainment had one simple idea – to provide the greatest, magical moments using cutting-edge sound and lighting equipment. Kasai Entertainment has strived to increase its range of quality products that can add a personal touch to any event. Using the latest cutting-edge hardware and software technologies, the team is constantly introducing new products to add to the range – with an emphasis on quality over quantity.   Our goal is to provide a creative platform for our client’s events; and the company’s growth over the years shows our success in doing just that.
+      </p>
+    </div>
   </div>
-  <div class="">
+  <div class="bio">
     <div class="media" data-aos="fade-left">
       <img src="/assets/images/ray.jpg" id="ray"/>
     </div>
@@ -38,7 +40,7 @@
       </div>
     </div>
   </div>
-  <div class="reverse">
+  <div class="bio reverse">
     <div class="media" data-aos="fade-right">
       <img src="/assets/images/lisa.jpg" / id="lisa">
     </div>

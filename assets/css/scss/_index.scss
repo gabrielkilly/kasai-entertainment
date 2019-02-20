@@ -1,14 +1,18 @@
 #index{
   color: white;
 }
-#index .intro {
+#index .site-intro {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
   background-color: black;
-  background-size: cover, cover;
-  background-blend-mode: hard-light;
-  background-attachment: fixed;
 }
 
-#index .intro h1 {
+#index .site-intro h1 {
   letter-spacing: normal;
   padding: 0 5px;
   font-size: 4.5rem;
@@ -18,7 +22,7 @@
   -webkit-text-fill-color: transparent;
 
 }
-#index .intro h2 {
+#index .site-intro h2 {
   font-family: josefin-l;
   font-size: 2rem;
   margin-top: .8rem;
@@ -34,105 +38,59 @@ section.about-us {
   background-color: $k_gold;
 }
 
-section.packages {
+
+section.info {
   color: white;
   background-color: black;
-  padding: 6rem 0 10rem 0;
-  @media screen and (max-width: 500-1px) {
-    padding: 4rem 0 12rem 0;
-  }
   >.container {
-    position: relative;
-    h1 {
-      font-family: "josefin-sb";
-      font-size: 3rem;
-      letter-spacing:.6rem;
-      background: linear-gradient(#D3D5DB, $k_gold, #FFFFFF);
-      -webkit-background-clip: text;
-      -webkit-text-fill-color: transparent;
-      padding: 2rem 0;
-      width: 65%;
-      @media screen and (max-width: 900-1px) {
-        font-size: 2.5rem;
+    text-align: center;
+    >section {
+      padding: 1rem;
+      div.header {
+        padding: 2rem 0;
+        h1 {
+          font-family: "josefin-sb";
+          font-size: 3rem;
+          letter-spacing:.6rem;
+          background: linear-gradient(#D3D5DB, $k_gold, #FFFFFF);
+          -webkit-background-clip: text;
+          -webkit-text-fill-color: transparent;
+          text-align: left;
+          width: 60%;
+          &.text-right {
+            text-align: right;
+          }
+        }
       }
-      @media screen and (max-width: 600-1px) {
-        font-size: 2rem;
-      }
-    }
-    p {
-      line-height: 2.2rem;
-      font-family: hind-l;
-      font-size: 1.3rem;
-      position: absolute;
-      width: 60%;
-      margin-top: -20px
-    }
-    >div {
-      height: auto;
-      padding: 4rem 0;
-      position:relative;
-      @media screen and (max-width: 1200-1px) {
-        padding: 5rem 0;
-      }
-      >img.parallax-img {
-        margin-top: -150px;
-        width: 30%;
-        @media screen and (max-width: 1200-1px) {
+      div.info {
+        display: flex;
+        justify-content: space-between;
+        p {
+          display: block;
+          line-height: 2.2rem;
+          font-family: hind-l;
+          font-size: 1.3rem;
+          text-align: left;
+          width: 60%;
+          position: relative;
+          top: -4rem;
+        }
+        img {
+          display: block;
+          height: auto;
           width: 35%;
-          margin-top: -100px;
-        }
-      }
-      &.weddings {
-        padding-bottom: 8.5rem;
-        >img {
-          float:right;
+          align-self: center;
           position: relative;
-          top: 5rem;
-        }
-      }
-      &.events {
-        >h1 {
-          position: relative;
-          left: 35%;
-          text-align: right;
-        }
-        >p {
-          right: 0;
-        }
-        >img {
-          float: left;
-          position: relative;
-          top: 5rem;
-        }
-      }
-      &.rentals {
-        >p {
-          float: left;
-        }
-        >img {
-          float:right;
+          top: -8rem;
         }
       }
     }
-  }
-  .button {
-    position: relative;
-    top: 6rem;
-    @media screen and (max-width: 500-1px) {
-      top: 8rem;
+    .button {
+      margin-top: 100px;
+      text-align: center;
     }
   }
 }
-// section.youtube-banner {
-//   height: 6rem;
-//   position: relative;
-//   top: 8rem;
-//   background: url('/assets/images/youtube_banner.png'), linear-gradient(rgba(0,0,0,0), rgba(0,0,0,0));
-//   background-position: left, center;
-//   background-size: contain, cover;
-//   background-repeat: no-repeat;
-//
-// }
 section.experiences {
   background: $k_gold;
   padding-top: 5rem;
@@ -142,76 +100,10 @@ section.experiences {
     h1 {
       text-align: right;
     }
-    >.slider-container {
-      padding: 3rem 0;
-      .slider {
-        width: 100%;
-        margin: 0px auto;
-        @media screen and (max-width: 530-1px) {
-          width: 90%;
-        }
-        .slick-slide{
-          margin: 10px;
-          img, iframe {
-            height: 500px;
-            @media screen and (max-width: 1200-1px) {
-              height: 400px;
-            }
-            @media screen and (max-width: 860-1px) {
-              height: 250px;
-            }
-            @media screen and (max-width: 530-1px) {
-              height: 150px;
-            }
-          }
-          iframe {
-            width: 889px;
-            @media screen and (max-width: 1200-1px) {
-              width: 711px;
-            }
-            @media screen and (max-width: 860-1px) {
-              width: 444px;
-            }
-            @media screen and (max-width: 530-1px) {
-              width: 269px;
-            }
-          }
-        }
-      }
-    }
   .button {
     margin-top: 3rem;
     }
   }
-}
-.slick-prev:before, .slick-next:before {
-  position: relative;
-  color: black;
-  font-size: 40px;
-  @media screen and (max-width: 900-1px) {
-    font-size: 25px;
-  }
-}
-
-.slick-prev:before {
-  right: 38px;
-  @media screen and (max-width: 900-1px) {
-    right: 6px;
-  }
-}
-.slick-next:before {
-  left: 20px;
-  @media screen and (max-width: 900-1px) {
-    left: 0px;
-  }
-}
-.slick-slide img, .slick-slide iframe {
-  transition: opacity 1s;
-  opacity: 0.5;
-}
-.slick-slide.slick-center img, .slick-slide.slick-center iframe {
-  transition: opacity 1s;
-  opacity: 1;
 }
 
 section.contact-us {

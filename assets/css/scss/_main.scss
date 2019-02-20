@@ -31,8 +31,8 @@ body {
 p {
   font-family: hind-r;
 }
-section {
-  padding: 6rem 0;
+body > section {
+  padding: 3rem 0;
   text-align: center;
 
   >.container {
@@ -49,7 +49,7 @@ section {
       font-size: 1.2rem;
       line-height: 1.8;
       display: block;
-      padding: 5rem 0;
+      padding: 2.5rem 0;
     }
   }
 
@@ -57,35 +57,6 @@ section {
     width: 100%;
   }
 }
-
-.button
-{
-  display: inline-block;
-  width: auto;
-  padding: 1.5rem 3rem;
-  border: white 2px solid;
-  border-radius: 60px;
-  text-align: center 30px;
-  text-decoration: none;
-  font-size: 1.3rem;
-  color: white;
-  background: rgba(0,0,0,0);
-  transition: .6s background-color, .6s color;
-  cursor: pointer;
-  &.black {
-    color: black;
-    border-color: black;
-    &:hover {
-      background-color: black;
-      color: white;
-    }
-  }
-  &:hover {
-    background-color: white;
-    color: rgba(0, 0, 0, .5);
-  }
-}
-
 
 
 div.image {
@@ -96,4 +67,71 @@ div.image {
     height: auto;
     width: 100%;
   }
+}
+
+.slider-container {
+  padding: 3rem 0;
+  .slider {
+    width: 100%;
+    margin: 0px auto;
+    @media screen and (max-width: 530-1px) {
+      width: 90%;
+    }
+    .slick-slide{
+      margin: 10px;
+      img, iframe {
+        height: 500px;
+        @media screen and (max-width: 1200-1px) {
+          height: 400px;
+        }
+        @media screen and (max-width: 860-1px) {
+          height: 250px;
+        }
+        @media screen and (max-width: 530-1px) {
+          height: 150px;
+        }
+      }
+      iframe {
+        width: 889px;
+        @media screen and (max-width: 1200-1px) {
+          width: 711px;
+        }
+        @media screen and (max-width: 860-1px) {
+          width: 444px;
+        }
+        @media screen and (max-width: 530-1px) {
+          width: 269px;
+        }
+      }
+    }
+  }
+}
+.slick-prev:before, .slick-next:before {
+  position: relative;
+  color: black;
+  font-size: 40px;
+  @media screen and (max-width: 900-1px) {
+    font-size: 25px;
+  }
+}
+
+.slick-prev:before {
+  right: 38px;
+  @media screen and (max-width: 900-1px) {
+    right: 6px;
+  }
+}
+.slick-next:before {
+  left: 20px;
+  @media screen and (max-width: 900-1px) {
+    left: 0px;
+  }
+}
+.slick-slide img, .slick-slide iframe {
+  transition: opacity 1s;
+  opacity: 0.5;
+}
+.slick-slide.slick-center img, .slick-slide.slick-center iframe {
+  transition: opacity 1s;
+  opacity: 1;
 }

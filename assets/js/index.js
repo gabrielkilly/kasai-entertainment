@@ -18,7 +18,7 @@ $(document).ready(function(){
   wordChanger();
   // players[0].playVideo();
 });
-var words = ["JOY", "DANCE", "MUSIC", "MEMORIES"];
+var words = ["JOY", "MEMORIES"];
 var iters = 0;
 function wordChanger() {
   var span = $("span#wordChanger");
@@ -34,16 +34,19 @@ function wordChanger() {
   iters = iters + 1;
 }
 function parallaxMaker() {
-  $(".parallax-img").paroller({
-    factor: 0.22,
+  $("#index section.info img").paroller({
+    factor: 0.5,
+    factorMd: 0.0,
     type: 'foreground',
     direction: 'vertical' });
-  $(".parallax-h1").paroller({
+  $("#index section.info h1").paroller({
     factor: 0.15,
+    factorMd: 0.0,
     type: 'foreground',
     direction: 'vertical' });
-  $(".parallax-p").paroller({
-    factor: 0.20,
+  $("#index section.info p").paroller({
+    factor: 0.3,
+    factorMd: 0.0,
     type: 'foreground',
     direction: 'vertical' });
 }
