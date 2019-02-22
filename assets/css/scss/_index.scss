@@ -60,6 +60,9 @@ section.info {
           &.text-right {
             text-align: right;
           }
+          @media screen and (max-width: 1024px) {
+            width: 90%;
+          }
         }
       }
       div.info {
@@ -74,6 +77,10 @@ section.info {
           width: 60%;
           position: relative;
           top: -4rem;
+          @media screen and (max-width: 1024px) {
+            width: 90%;
+            top: -2rem;
+          }
         }
         img {
           display: block;
@@ -82,6 +89,9 @@ section.info {
           align-self: center;
           position: relative;
           top: -8rem;
+          @media screen and (max-width: 1024px) {
+            display: none;
+          }
         }
       }
     }
@@ -93,9 +103,7 @@ section.info {
 }
 section.experiences {
   background: $k_gold;
-  padding-top: 5rem;
   .container {
-    padding: 3rem 0px;
     width: 85%;
     h1 {
       text-align: right;
