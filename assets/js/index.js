@@ -14,7 +14,9 @@
 // }
 $(document).ready(function(){
   slickSliderMaker();
-  parallaxMaker();
+  var x = window.matchMedia("(max-width: 1024px)")
+  parallaxMaker(x);
+  x.addListener(parallaxMaker);
   wordChanger();
   // players[0].playVideo();
 });
@@ -33,22 +35,24 @@ function wordChanger() {
   }
   iters = iters + 1;
 }
-function parallaxMaker() {
-  $("#index section.info img").paroller({
-    factor: 0.5,
-    factorMd: 0.0,
-    type: 'foreground',
-    direction: 'vertical' });
-  $("#index section.info h1").paroller({
-    factor: 0.15,
-    factorMd: 0.0,
-    type: 'foreground',
-    direction: 'vertical' });
-  $("#index section.info p").paroller({
-    factor: 0.3,
-    factorMd: 0.0,
-    type: 'foreground',
-    direction: 'vertical' });
+function parallaxMaker(x) {
+  if (!x.matches) {
+    $("#index section.info img").paroller({
+      factor: 0.5,
+      factorMd: 0.0,
+      type: 'foreground',
+      direction: 'vertical' });
+    $("#index section.info h1").paroller({
+      factor: 0.15,
+      factorMd: 0.0,
+      type: 'foreground',
+      direction: 'vertical' });
+    $("#index section.info p").paroller({
+      factor: 0.3,
+      factorMd: 0.0,
+      type: 'foreground',
+      direction: 'vertical' });
+  }
 }
 function slickSliderMaker() {
   $('.slider').slick({

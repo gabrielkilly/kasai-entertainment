@@ -6,7 +6,7 @@
 </head>
 <body id="quote">
   <?php include __DIR__."/partials/navbar.php"?>
-  <section>
+  <section class="beg-padding">
     <h1>PAGE UNDER CONSTRUCTION</h1>
     <img src="/assets/icons/cog.png"/>
   </section>
