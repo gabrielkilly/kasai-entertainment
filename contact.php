@@ -16,7 +16,7 @@
     <div class="container phone-number">
       <h1 class="beg-pad">Contact Us Yourself</h1>
       <p>
-        (808) 226 - 9916 <br />
+        (808)226-9974 <br />
         kasai.entertainment@gmail.com
       </p>
     </div>

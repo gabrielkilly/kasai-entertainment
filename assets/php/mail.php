@@ -15,16 +15,16 @@ try {
     $mail->Host = 'a2plcpnl0942.prod.iad2.secureserver.net';
     $mail->SMTPAuth = true;
     $mail->Username = 'mailer@kasai-entertainment.com';
-    $mail->Password = '********';
+    $mail->Password = 'KASAImailGOdaddy';
     $mail->SMTPSecure = 'tls';   // ssl will no longer work on GoDaddy CPanel SMTP
     $mail->Port = 587;    // Must use port 587 with TLS
     //Recipients
     $response = "Thank you for your interest in Kasai Entertainment. We will be writing back to you within the next 24 hours.";
     $mail->setFrom('mailer@kasai-entertainment.com', 'Mailer');
     $mail->addAddress('kasai.entertainment@gmail.com');     // Add a recipient
-    $mail->addAddress('*******', '*******'); // Name is optional
-    $mail->addAddress('*******');
-    $mail->addReplyTo('*******', $response);
+    // $mail->addAddress('*******', '*******'); // Name is optional
+    // $mail->addAddress('*******');
+    // $mail->addReplyTo('*******', $response);
     //$mail->addCC('cc@example.com');
     //mail->addBCC('bcc@example.com');
 
