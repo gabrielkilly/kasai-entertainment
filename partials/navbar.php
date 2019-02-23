@@ -10,7 +10,7 @@
           <a href='/about.php'>ABOUT</a>
         </li>
         <li class='inner'>
-          <a href='/services.php'>SERVICES</a>
+          <a href='/packages.php'>PACKAGES</a>
         </li>
         <li class='inner'>
           <a href='/experiences.php'>EXPERIENCES</a>

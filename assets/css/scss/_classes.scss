@@ -1,15 +1,148 @@
 .left { float: left; }
 .right { float:right; }
+.text-right{ text-align: right;}
 .flex { display: flex; }
 .reverse { flex-direction: row-reverse;}
-.beg-padding { padding-top: 50px; }
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.beg-padding { padding-top: 80px; }
 .gold { background-color: $k_gold; }
+.josefin-bold { font-family: josefin-b }
+.hind-bold { font-family: hind-b }
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.button {
+  display: inline-block;
+  width: auto;
+  padding: 1.5rem 3rem;
+  border: white 2px solid;
+  border-radius: 60px;
+  text-align: center 30px;
+  text-decoration: none;
+  font-size: 1.3rem;
+  color: white;
+  background: rgba(0,0,0,0);
+  transition: .6s background-color, .6s color;
+  cursor: pointer;
+  &.black {
+    color: black;
+    border-color: black;
+    &:hover {
+      background-color: black;
+      color: white;
+    }
+  }
+  &:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, .5);
+  }
+}
 .intro {
+  display: block;
   height: 100vh;
   width: 100%;
+  background-color: black;
+  h1 {
+    display:inline-block;
+    width: 100%;
+    height: 3.2rem;
+    font-size: 4.2rem;
+    letter-spacing: 1.5rem;
+    text-align:  center;
+    position: relative;
+    top: 160px;
+  }
+  div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    p {
+      display: inline-block;
+      text-align: center;
+      font-family: hind-r;
+      font-size: 1.6rem;
+      line-height: 3rem;
+      width: 80%;
+    }
+  }
+}
+
+.button-w-icon {
+  height: auto;
+  padding: 16px 20px;
+  background-color: black;
+  border-radius: 50px;
+  font-size: 1rem;
+  font-family: josefin-r;
+  transition: .6s background-color, .6s color;
+  cursor: pointer;
+  &::before {
+    content: "";
+    transition: .6s background;
+    position:relative;
+    display: inline-block;
+    height: 1.2rem;
+    width: 1.2rem;
+  //  background: url(/assets/icons/contact-icon.png) no-repeat;
+    background-size: contain;
+    top: 5px;
+  }
+  &:hover {
+    background-color: white;
+    color: $k_gold;
+    &::before {
+      content: "";
+      transition: .6s background;
+      position:relative;
+      display: inline-block;
+      height: 1.2rem;
+      width: 1.2rem;
+    //  background: url(/assets/icons/contact-icon-gold.png) no-repeat;
+      background-size: contain;
+      top: 5px;
+    }
+  }
+}
+.links {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  height: auto;
+  a {
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 0 .5rem;
+    background-color: #000;
+    transition: 0.6s background;
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    &.facebook {
+      background-image: url(/assets/icons/facebook.png);
+      &:hover {
+        background-image: url(/assets/icons/facebook-alt.png);
+      }
+    }
+    &.youtube {
+      background-image: url(/assets/icons/youtube.png);
+      &:hover {
+        background-image: url(/assets/icons/youtube-alt.png);
+      }
+    }
+    &.wedding-wire {
+      background-image: url(/assets/icons/wedding-wire.png);
+      &:hover {
+        background-image: url(/assets/icons/wedding-wire-alt.png);
+      }
+    }
+  }
 }

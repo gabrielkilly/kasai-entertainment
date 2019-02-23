@@ -14,7 +14,7 @@
   <?php include __DIR__."/partials/navbar.php"?>
   <section>
     <div class="container phone-number">
-      <h1>Contact Us Yourself</h1>
+      <h1 class="beg-pad">Contact Us Yourself</h1>
       <p>
         (808) 226 - 9916 <br />
         kasai.entertainment@gmail.com
@@ -48,7 +48,6 @@
       </form>
     </div>
   </section>
-  <div class="image">
 
   <?php include __DIR__."/partials/footer.php"?>
   <script src="/third-party/jquery/jquery-3.3.1.min.js"></script>

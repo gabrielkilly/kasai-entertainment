@@ -1,0 +1,186 @@
+body#packages {
+  section {
+    &:nth-child(even) {
+      background-color: black;
+      .slick-prev:before, .slick-next:before {
+        color: white;
+      }
+      .button-w-icon {
+        border: 2px solid;
+        border-color: white;
+      }
+      .slick-dots li button:before {
+        color: white;
+      }
+    }
+    &:nth-child(odd) {
+      background-color: $k_gold;
+    }
+    .container {
+      text-align: center;
+      >h1 {
+        font-family: josefin-r;
+      }
+      p {
+        font-size: 1.4rem;
+        padding: 1.2rem 0 0 0;
+      }
+      .slider-container {
+        padding: 3rem 0;
+        @media screen and (max-width: 1200px) {
+          padding-bottom: 5.5rem;
+        }
+        .slider {
+          width: 80%;
+          @media screen and (max-width: 530-1px) {
+            width: 90%;
+          }
+          .slick-slide{
+            img, iframe {
+              height: 350px;
+              @media screen and (max-width: 1200-1px) {
+                height: 300px;
+              }
+              @media screen and (max-width: 860-1px) {
+                height: 220px;
+              }
+              @media screen and (max-width: 530-1px) {
+                height: 150px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+   >.package {
+     position: relative;
+     >.container {
+       .button-w-icon {
+         &::before {
+           content: "+";
+           font-size: 1.8rem;
+           right: .2rem;
+           top: 2px;
+         } &:hover {
+           color: black;
+         }
+         @media screen and (max-width: 500px) {
+           font-size: 1.3rem;
+           &::before {
+             font-size: 2.5rem;
+             right: .6rem;
+           }
+         }
+       }
+       .section-modal {
+         position: absolute;
+         display: none;
+         background-color: rgba(#817979, 0.9);
+         height: 100%;
+         width: 100%;
+         top: 0px;
+         left: 0px;
+         &.display {
+           display: block;
+         }
+         .close {
+           width: 4.2rem;
+           height: 4.2rem;
+           background-color: #000;
+           border-radius: 15rem;
+           background-image: url(/assets/icons/cancel.png);
+           transition: 0.6s background;
+           background-position: center;
+           background-size: 34% 34%;
+           background-repeat: no-repeat;
+           position: absolute;
+           right: 5%;
+           top: 3rem;
+           cursor: pointer;
+           &:hover {
+             background-color: white;
+             background-image: url(/assets/icons/cancel-black.png);
+           }
+         }
+         .info-list {
+           height: 100%;
+           ul {
+             li {
+               font-size: 1.4rem;
+               font-family: hind-r;
+               text-align: right;
+               margin-top: .5rem;
+               &::after {
+                 content: "";
+                 font-family: josefin-r;
+                 font-size: 2rem;
+                 background-size: contain;
+                 height: 1.5rem;
+                 width: 1.5rem;
+                 display: inline-block;
+                 position: relative;
+                 left: 1rem;
+
+               }
+               &.tick::after {
+                   content: "";
+                   background: url(/assets/icons/tick.png) no-repeat;
+                   background-size: contain;
+                   height: 1.5rem;
+                   width: 1.5rem;
+                   top: .15rem;
+                   display: inline-block;
+              } &.empty::after {
+                   content: "—";
+               } &.new-section {
+                 margin-top: 2rem;
+               }
+             }
+           }
+         }
+       }
+     }
+   }
+   section.lighting {
+     .container {
+       .table {
+         width: 70%;
+         padding-top: 1.4rem;
+         @media screen and (max-width: 1024px) {
+           width: 90%;
+         } @media screen and (max-width: 500px) {
+           width: 100%;
+         }
+       }
+     }
+   }
+   section.add-ons {
+     .container {
+       .column-list {
+         padding-top: 1rem;
+         width: 100%;
+         @media screen and (max-width: 768px) {
+           flex-direction: column;
+         }
+         ul.column {
+           display: flex;
+           flex-direction: column;
+           justify-content: space-between;
+           align-items: center;
+           padding: 0 2rem;
+           li {
+             font-family: josefin-r;
+             text-align: center;
+             font-size: 1.5rem;
+             width: 100%;
+             background-color: black;
+             border-radius: .5rem;
+             padding: 1.2rem 1rem;
+             margin:.6rem 0;
+           }
+         }
+       }
+     }
+   }
+}
