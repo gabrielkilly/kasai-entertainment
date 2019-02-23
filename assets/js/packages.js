@@ -8,7 +8,7 @@ function slickSlidersMaker() {
     // autoplaySpeed: 2000,
     centerMode: true,
     variableWidth: true,
-    infinite: true,
+    infinite: false,
     dots: true,
     speed: 1000,
     arrows: true

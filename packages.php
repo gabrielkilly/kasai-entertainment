@@ -23,9 +23,8 @@
       </p>
       <div class="slider-container">
         <div class="slider">
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
+            <div><img src="/assets/images/basic-package/basic00.png"/></div>
+            <div><img src="/assets/images/basic-package/basic01.png"/></div>
         </div>
       </div>
       <a class="button-w-icon" onclick="showInfo(this)">MORE INFO</a>
@@ -60,9 +59,9 @@
       </p>
       <div class="slider-container">
         <div class="slider">
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
+            <div><img src="/assets/images/luxury-package/luxury00.jpg" /></div>
+            <div><img src="/assets/images/luxury-package/luxury01.JPG" /></div>
+            <div><img src="/assets/images/luxury-package/luxury02.PNG" /></div>
         </div>
       </div>
       <a class="button-w-icon" onclick="showInfo(this)">MORE INFO</a>
@@ -97,9 +96,8 @@ To provide remarkable sound and entertainment with quality equipment at a budget
       </p>
       <div class="slider-container">
         <div class="slider">
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
-            <div><img src="/assets/images/dance-experience.jpg" /></div>
+            <div><img src="/assets/images/ultimate-package/ultimate00.png" /></div>
+            <div><img src="/assets/images/ultimate-package/ultimate01.jpg" /></div>
         </div>
       </div>
       <a class="button-w-icon" onclick="showInfo(this)">MORE INFO</a>
