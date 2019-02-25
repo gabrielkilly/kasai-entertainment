@@ -22,7 +22,7 @@
     </div>
     <div class="container contact-form">
       <h1>Or Message Us Here</h1>
-      <form action="/assets/php/mail.php" method="post">
+      <form action="/mail.php" method="post">
         <div class="clearfix">
           <div class="left">
             <label for="name">Name</label>

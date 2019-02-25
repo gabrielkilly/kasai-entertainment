@@ -4,10 +4,10 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
-require $_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php';
-include $_SERVER['DOCUMENT_ROOT'].'/third-party/ChromePhp.php';
-ChromePhp::log('Hello console!');
-$environment= file_get_contents($_SERVER['DOCUMENT_ROOT'].'/.environment');
+require __DIR__.'/vendor/autoload.php';
+include __DIR__.'/third-party/ChromePhp.php';
+//ChromePhp::log('Hello console!');
+$environment= file_get_contents(__DIR__.'/.environment');
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
