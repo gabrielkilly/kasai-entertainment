@@ -10,5 +10,6 @@
   gtag('js', new Date());
   gtag('config', 'UA-132433383-1');
 </script>
-
-
+<?php
+include $_SERVER['DOCUMENT_ROOT'].'/third-party/ChromePhp.php';
+?>
