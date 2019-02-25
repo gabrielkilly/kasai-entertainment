@@ -92,7 +92,7 @@
     <div class="container">
       <h1>ULTIMATE PACKAGE</h1>
       <p>
-To provide remarkable sound and entertainment with quality equipment at a budget friendly price point. Package supports up to 100 people.
+        To provide the best surround sound using cutting edge technology with premium brands, best lighting and effects in the industry. Package supports events up to 600 people.
       </p>
       <div class="slider-container">
         <div class="slider">
@@ -128,7 +128,7 @@ To provide remarkable sound and entertainment with quality equipment at a budget
     <div class="container">
       <h1>LIGHTING PACKAGES</h1>
       <p>
-        To provide remarkable sound and entertainment with quality equipment at a budget friendly price point. Package supports up to 100 people.
+        Packages that only include our top of the line lighting equipment. 
       </p>
       <img class="table" src="/assets/svgs/Table.svg" />
     </div>

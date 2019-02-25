@@ -28,25 +28,25 @@
         <div class="header"><h1>ANY EVENT</h1></div>
         <div class="info">
           <p>
-            What would the perfect Professional Audio system be like? First and foremost, it would produce clean, clear, high-fidelity, full-range sound with plenty of volume. Secondly, it would be consistent in all acoustic environments. Kasai entertainment professional grade Audio equipment satisfies all these requirements by providing all audio with BOSE L1 Model II systems and Electro Voice wooden cabinets. Equipment from Kasai Entertainment produces an ultra-wide dispersion and balanced sound pattern that projects evenly and introduces a new level of sound quality to your event.
+            At your event, Kasai Entertainments main goals is to provide a special touch to your event that will take your breath away. Every event that we host we aspire to create exceptional memories, moments, and overall joy. Our services include, but are not limited to: <span class="hind-bold">weddings</span>, <span class="hind-bold">corporate events</span>, <span class="hind-bold">parties and celebreations</span>, <span class="hind-bold">multiday festivals</span>, <span class="hind-bold">peroformances</span>, and <span class="hind-bold">more</span>.
           </p>
-          <img src="/assets/images/wedding-aisle.jpg"/>
+          <img class="" src="/assets/images/wedding-aisle.jpg"/>
         </div>
       </section>
       <section>
         <div class="header flex reverse"><h1 class="text-right">QUALITY EQUIPMENT</h1></div>
         <div class="info reverse">
           <p>
-            Kasai Entertainment aims to give paramount service while providing customer satisfaction. We approach each project as a unique experience, which requires creativity and an ability to listen to our clients’ needs. To ensure that we meet the expectations of each client, we ask our clients to complete a short satisfaction survey at the close of each engagement. This survey gives our clients a means to provide feedback that will enable us to meet their needs in the future. We hope this information helps you get to know us better.
+            What would the perfect Professional Audio system be like? First and foremost, it would produce clean, clear, high-fidelity, full-range sound with plenty of volume. Secondly, it would be consistent in all acoustic environments. Kasai entertainment professional grade Audio equipment satisfies all these requirements by providing all audio with BOSE L1 Model II systems and Electro Voice wooden cabinets. Equipment from Kasai Entertainment produces an ultra-wide dispersion and balanced sound pattern that projects evenly and introduces a new level of sound quality to your event.
           </p>
-          <img src="/assets/images/controller.jpg"/>
+          <img class="sec" src="/assets/images/controller.jpg"/>
         </div>
       </section>
       <section>
         <div class="header"><h1>PROFESSIONAL SERVICES</h1></div>
         <div class="info">
           <p>
-            At your event, Kasai Entertainments main goals is to provide a special touch to your event that will take your breath away. Every event that we host we aspire to create exceptional memories, moments, and overall joy. Our services include, but are not limited to: <span class="hind-bold">weddings</span>, <span class="hind-bold">corporate events</span>, <span class="hind-bold">parties and celebreations</span>, <span class="hind-bold">multiday festivals</span>, <span class="hind-bold">peroformances</span>, and <span class="hind-bold">more</span>.
+            Kasai Entertainment aims to give paramount service while providing customer satisfaction. We approach each project as a unique experience, which requires creativity and an ability to listen to our clients’ needs. To ensure that we meet the expectations of each client, we ask our clients to complete a short satisfaction survey at the close of each engagement. This survey gives our clients a means to provide feedback that will enable us to meet their needs in the future. We hope this information helps you get to know us better.
           </p>
           <img src="/assets/images/front-setup-view.jpg"/>
         </div>
