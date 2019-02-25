@@ -5,11 +5,14 @@ use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 require $_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php';
+include $_SERVER['DOCUMENT_ROOT'].'/third-party/ChromePhp.php';
+ChromePhp::log('Hello console!');
 $environment= file_get_contents($_SERVER['DOCUMENT_ROOT'].'/.environment');
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
     //Server settings
+
     $mail->SMTPDebug = 0;                                 // Enable verbose debug output
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'a2plcpnl0942.prod.iad2.secureserver.net';
