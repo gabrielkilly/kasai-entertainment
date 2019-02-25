@@ -89,6 +89,11 @@ section.info {
           align-self: center;
           position: relative;
           top: -8rem;
+          &.sec {
+            top: -5rem;
+          } &.fst {
+            top: -4rem;
+          }
           @media screen and (max-width: 1024px) {
             display: none;
           }
