@@ -1,2 +1,3 @@
 .environment
 assets/php/error_log
+config.json

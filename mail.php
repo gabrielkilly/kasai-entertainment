@@ -6,8 +6,10 @@ use PHPMailer\PHPMailer\Exception;
 //Load Composer's autoloader
 require __DIR__.'/vendor/autoload.php';
 include __DIR__.'/third-party/ChromePhp.php';
-//ChromePhp::log('Hello console!');
+
 $environment= file_get_contents(__DIR__.'/.environment');
+$mailer = json_decode(file_get_contents(__DIR__.'/.config'))['mailer'];
+
 
 $mail = new PHPMailer(true);                              // Passing `true` enables exceptions
 try {
@@ -17,8 +19,8 @@ try {
     $mail->isSMTP();                                      // Set mailer to use SMTP
     $mail->Host = 'a2plcpnl0942.prod.iad2.secureserver.net';
     $mail->SMTPAuth = true;
-    $mail->Username = 'mailer@kasai-entertainment.com';
-    $mail->Password = 'KASAImailGOdaddy';
+    $mail->Username = $mailer['username'];
+    $mail->Password = $mailer['password'];
     $mail->SMTPSecure = 'tls';   // ssl will no longer work on GoDaddy CPanel SMTP
     $mail->Port = 587;    // Must use port 587 with TLS
     //Recipients
